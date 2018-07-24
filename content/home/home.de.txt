@@ -1,0 +1,9 @@
+Title: Home
+
+----
+
+Intro: # Wer hat gesagt, in Berlin dreht sich alles um Currywurst?
+
+----
+
+Text: Bei Berlin by Food zeigen wir Ihnen alles über das andere Berlin - die köstlichen Falafel, Hummus, der mit den Besten der Welt konkurriert, Gözleme, auf die eine türkische Mama stolz wäre, Patisserie, um einen Franzosen ohnmächtig zu machen, Pizza ein Naples Bambino würde gerne schwelgen, Sushi schmeckte bis jetzt nur in Kyoto ...

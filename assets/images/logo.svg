@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="179px" viewBox="0 0 135 179" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-54.000000, -1553.000000)">
+            <g id="Group-4" transform="translate(54.000000, 1545.000000)">
+                <text id="BERLIN" font-family="CstBerlinEastOT-Medium, Cst Berlin East OT" font-size="45.7142857" font-weight="400" letter-spacing="1.5" fill="#000000">
+                    <tspan x="50" y="45.3333321">BERLIN</tspan>
+                    <tspan x="137.674286" y="45.3333321"></tspan>
+                </text>
+                <text id="FOOD" font-family="CstBerlinEastOT-Medium, Cst Berlin East OT" font-size="45.7142857" font-weight="400" letter-spacing="1.5" fill="#000000">
+                    <tspan x="50" y="124">FOO</tspan>
+                    <tspan x="95.14" y="124">D</tspan>
+                </text>
+                <path d="M51.4285714,55.8095238 L132.403358,55.8095238" id="Line-2" stroke="#000000" stroke-width="1.9047619" stroke-linecap="square"></path>
+                <path d="M1.47619048,100.428571 L29.1116536,100.428571" id="Line-2" stroke="#000000" stroke-width="1.9047619" stroke-linecap="square"></path>
+                <path d="M50.4761905,132.428571 L109.507304,132.428571" id="Line-2" stroke="#000000" stroke-width="1.9047619" stroke-linecap="square"></path>
+                <text id="BY" font-family="CstBerlinEastOT-Medium, Cst Berlin East OT" font-size="45.7142857" font-weight="400" letter-spacing="1.5" fill="#000000">
+                    <tspan x="0" y="91">B</tspan>
+                    <tspan x="15.8542857" y="91">Y</tspan>
+                </text>
+                <path d="M41,9.18718287 L41,185.500709" id="Line-2" stroke="#000000" stroke-width="1.9047619" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
