@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 <head>
 
@@ -17,7 +18,10 @@
     <a href="<?= url() ?>" rel="home">
       <span style="position: absolute; left: -9999px; opacity: 0;"><?= $site->title()->html() ?></span>
       <img src="<?= url('assets/images/logo.svg') ?>" alt="<?= $site->title()->html() ?>" />
-      </a>
+    </a>
+
+    <? snippet('lang-switcher') ?>
+    
   </div>
 
-  <?php snippet('menu') ?>
+  <? snippet('menu') ?>
