@@ -7,9 +7,9 @@
         echo html::decode($site->copyright()->kirbytext())
       ?></p>
 
-      <p class="footer-madewithkirby">
+      <!-- <p class="footer-madewithkirby">
         <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b class="heart">♥</b></a>
-      </p>
+      </p> -->
     
     </div>
   </footer>

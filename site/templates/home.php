@@ -4,16 +4,14 @@
 
 <main class="main" role="main">
   
-  <header class="wrap">
-    <div class="intro text">
-      <?= $page->intro()->kirbytext() ?>
-    </div>
-    <hr />
-  </header>
+  <section id="intro" class="intro">
+    <?= $page->intro()->kirbytext() ?>
+    <a href="#more" class="button">En garde</a>
+  </section>
 
-  <div class="text wrap">
+  <section id="more" class="more">
     <?= $page->text()->kirbytext() ?>
-  </div>
+  </section>
 
   <section class="projects-section">
     

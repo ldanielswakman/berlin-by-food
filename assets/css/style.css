@@ -33,8 +33,21 @@ html {
 
 body {
 }
-body.page--home {
-  /*background: #F5FF6F;*/
+body.page--home main {
+}
+body.page--home .intro {
+  min-height: 100vh;
+  padding-top: 10rem;
+}
+body.page--home .intro h1 {
+  display: inline-block;
+  margin-right: -18rem;
+  font-size: 4rem;
+  line-height: 3rem;
+  background: #f5f6f7;
+}
+body.page--home .more {
+  padding-top: 4rem;
 }
 
 
@@ -42,19 +55,23 @@ body.page--home {
 
 
 /* Layout */
-.logo-panel {
+.side-panel {
   position: fixed;
   left: 0;
   top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 270px;
-  padding: 2rem;
-  text-align: center;
+  height: 100vh;
+  padding: 2rem 2rem 1rem;
 }
 .image-panel {
   position: fixed;
   right: 0;
   top: 0;
-  width: 62.5vh;
+  width: 80vh;
   height: 100vh;
   padding: 0;
   background: white;
@@ -69,7 +86,33 @@ body.page--home {
 main {
   padding: 2rem;
   margin-left: 270px;
-  width: calc(100vw - 270px - 62.5vh);
+  width: calc(100vw - 270px - 80vh);
+}
+
+
+/* Loading effect */
+.side-panel,
+.image-panel,
+main {
+  transition: all 0.3s ease-in-out;
+}
+main {
+  transition-delay: 0.2s;
+}
+.image-panel {
+  transition-delay: 0.4s;
+}
+.isLoading .side-panel,
+.isLoading .image-panel,
+.isLoading main {
+  opacity: 0;
+  transform: translateX(1rem);
+}
+.isLoaded .side-panel,
+.isLoaded .image-panel,
+.isLoaded main {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 
@@ -91,6 +134,7 @@ nav {
   position: fixed;
   bottom: 0;
   left: 270px;
+  z-index: 2;
   margin-left: 2rem;
 }
 nav ul {
@@ -120,6 +164,7 @@ figure img {
 
 
 
+
 /* Anchor */
 a {
   text-decoration: none;
@@ -129,11 +174,34 @@ a {
 
 
 
+/* Paragraph */
+p {
+  line-height: 1.5rem;
+}
+p + p {
+  margin-top: 1rem;
+}
+
+
+
 /* Blockquote */
 blockquote {
-  margin: 2rem 0;
+  margin: 2rem 0 1rem;
   border-left: 1.5px solid #000;
   padding-left: 1.5rem;
+}
+
+
+
+
+/* Button */
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  border: 1.5px solid #000;
 }
 
 
@@ -156,4 +224,28 @@ blockquote {
 }
 .showcase li a:hover {
   background: white;
+}
+
+
+
+
+/* Language switcher */
+.lang-switcher {
+  display: flex;
+  justify-self: flex-end;
+}
+.lang-switcher li a {
+  display: block;
+  padding: 0.75rem 0.5rem 0.5rem;
+  border: 1px solid transparent;
+  line-height: 0.75rem;
+  color: #999;
+}
+.lang-switcher li a:hover {
+  color: #000;
+}
+.lang-switcher > li.active a {
+  border-color: #000;
+  font-weight: 600;
+  color: #000;
 }
