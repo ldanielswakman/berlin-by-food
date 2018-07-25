@@ -1,0 +1,9 @@
+Title: Blog
+
+----
+
+Text: Blog opener
+
+----
+
+Perpage: 2
