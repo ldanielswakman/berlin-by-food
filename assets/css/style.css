@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('../fonts/MetricWeb-Regular.woff2') format('woff2'),
+       url('../fonts/MetricWeb-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('../fonts/MetricWeb-Medium.woff2') format('woff2'),
+       url('../fonts/MetricWeb-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('../fonts/MetricWeb-Semibold.woff2') format('woff2'),
+       url('../fonts/MetricWeb-Semibold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -43,6 +66,7 @@ body.page--home .intro h1 {
   display: inline-block;
   margin-right: -18rem;
   font-size: 4rem;
+  font-weight: 700;
   line-height: 3rem;
   background: #f5f6f7;
 }
