@@ -1,19 +1,19 @@
 @font-face {
-  font-family: 'Maison Neue';
+  font-family: 'Metric';
   src: url('../fonts/MetricWeb-Regular.woff2') format('woff2'),
        url('../fonts/MetricWeb-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Maison Neue';
+  font-family: 'Metric';
   src: url('../fonts/MetricWeb-Medium.woff2') format('woff2'),
        url('../fonts/MetricWeb-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Maison Neue';
+  font-family: 'Metric';
   src: url('../fonts/MetricWeb-Semibold.woff2') format('woff2'),
        url('../fonts/MetricWeb-Semibold.woff') format('woff');
   font-weight: 700;
@@ -54,17 +54,13 @@ html {
   font-size: 125%;
 }
 
-body {
-}
-body.page--home main {
-}
 body.page--home .intro {
   min-height: 100vh;
   padding-top: 8rem;
 }
 body.page--home .intro h1 {
   display: inline-block;
-  margin-right: -18rem;
+  margin-right: -15vw;
   font-size: 4rem;
   font-weight: 700;
   line-height: 3rem;
@@ -72,6 +68,18 @@ body.page--home .intro h1 {
 }
 body.page--home .more {
   padding-top: 4rem;
+}
+
+
+
+/* Selection */
+::-moz-selection {
+  background-color: #000;
+  color: #fff;
+}
+::selection {
+  background-color: #000;
+  color: #fff;
 }
 
 
@@ -95,7 +103,7 @@ body.page--home .more {
   position: fixed;
   right: 0;
   top: 0;
-  width: 80vh;
+  width: 33.33333vw;
   height: 100vh;
   padding: 0;
   background: white;
@@ -110,7 +118,10 @@ body.page--home .more {
 main {
   padding: 2rem;
   margin-left: 270px;
-  width: calc(100vw - 270px - 80vh);
+  width: calc(100vw - 270px);
+}
+body.page--home main {
+  width: calc(100vw - 270px - 33.33333vw);
 }
 
 
@@ -202,31 +213,34 @@ figure img {
 
 
 
-/* Anchor */
-a {
-  text-decoration: none;
-  color: inherit;
+
+/* Basic text definitions */
+/* Headlines */
+h1, h2, h3, h4 {
+  font-weight: 700;
 }
-
-
-
-
 /* Paragraph */
 p {
+  max-width: 48rem;
   line-height: 1.5rem;
 }
 p + p {
   margin-top: 1rem;
 }
-
-
-
+/* Anchor */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 /* Blockquote */
 blockquote {
   margin: 2rem 0 1rem;
   border-left: 2px solid #000;
   padding-left: 1.5rem;
 }
+
+
+
 
 
 
@@ -254,8 +268,6 @@ blockquote {
 
 
 
-
-
 /* Showcase */
 .showcase {
   margin-top: 4rem;
@@ -276,6 +288,30 @@ blockquote {
 
 
 
+/* Card */
+.card {
+  height: 100%;
+  padding: 2rem;
+  background: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card#project-a {
+  background-image: url('../images/avocado.png');
+}
+.card#project-b {
+  background-image: url('../images/watermelon.png');
+}
+.card#project-c {
+  background-image: url('../images/lemon.png');
+}
+.card#project-d {
+}
+
+
+
+
 /* Language switcher */
 .lang-switcher {
   display: flex;
@@ -286,7 +322,7 @@ blockquote {
   padding: 0.75rem 0.5rem 0.5rem;
   border: 1px solid transparent;
   line-height: 0.75rem;
-  color: #999;
+  color: #666;
 }
 .lang-switcher li a:hover {
   color: #000;

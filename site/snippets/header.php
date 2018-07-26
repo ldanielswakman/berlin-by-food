@@ -10,11 +10,12 @@
     <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
     <meta name="description" content="<?= $site->description()->html() ?>">
 
+    <?= css('assets/css/flexboxgrid2.min.css') ?>
+    <?= css('assets/css/style.css') ?>
+
     <?= js('assets/js/jquery-3.3.1.min.js') ?>
     <?= js('assets/js/jquery.smooth-scroll.min.js') ?>
     <?= js('assets/js/scripts.js') ?>
-
-    <?= css('assets/css/style.css') ?>
 
   </head>
 
