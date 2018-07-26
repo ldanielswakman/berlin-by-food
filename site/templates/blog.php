@@ -53,8 +53,6 @@
       <?php endif ?>
     </section>
 
-    <?php snippet('pagination') ?>
-
   </main>
 
 <?php snippet('footer') ?>

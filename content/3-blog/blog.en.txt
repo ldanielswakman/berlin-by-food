@@ -6,4 +6,4 @@ Text: Blog opener
 
 ----
 
-Perpage: 2
+Perpage: 5
