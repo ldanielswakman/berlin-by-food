@@ -1,4 +1,5 @@
 <?
+
 $projects = page('tours')->children()->visible();
 if(isset($limit)) $projects = $projects->limit($limit);
 ?>

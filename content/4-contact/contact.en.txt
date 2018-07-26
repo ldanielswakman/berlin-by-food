@@ -2,30 +2,7 @@ Title: Contact
 
 ----
 
-Text: 
-
-## Follow the Kirby Team on Twitter
-
-Kirby
-(twitter: @getkirby)
-
-Bastian
-(twitter: @bastianallgeier)
-
-Nico
-(twitter: @distantnative)
-
-Sascha
-(twitter: @sashtown)
-
-Sonja
-(twitter: @texnixe)
-
-Lukas
-(twitter: @lukasbestle)
-
-Fabian
-(twitter: @fabianmichael)
+Text: sdfsjd
 
 ----
 

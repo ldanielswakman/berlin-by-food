@@ -50,3 +50,5 @@ c::set('languages', array(
     'url'     => '/fr',
   ),
 ));
+
+c::set('debug', true);
