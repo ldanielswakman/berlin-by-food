@@ -2,7 +2,7 @@ Title: Blog
 
 ----
 
-Text: Blog opener
+Text: 
 
 ----
 
