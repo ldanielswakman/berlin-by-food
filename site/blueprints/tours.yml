@@ -8,8 +8,8 @@ pages:
 icon: th-large
 
 options: 
-  template: false  
-  status: false  
+  template: false
+  delete: false
   # url: false  
 
 fields:
@@ -19,4 +19,10 @@ fields:
 
   text:
     label: Text
+    help: Appears above tours
+    type:  textarea
+
+  text_2:
+    label: Explanation
+    help: Appears below tours
     type:  textarea

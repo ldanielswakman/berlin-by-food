@@ -6,7 +6,7 @@
 
     <?= $page->text()->kirbytext() ?>
 
-    <div class="row" style="margin-top: 3rem;">
+    <div class="tours-index row">
       <? foreach (page('tours')->children()->visible() as $tour) : ?>
       <div class="col-xs-12 col-sm-6" style="margin-bottom: 2rem;">
         <div class="card" id="<?= $tour->slug() ?>">
@@ -19,6 +19,10 @@
         </div>
       </div>
       <? endforeach ?>
+    </div>
+
+    <div>
+      <?= $page->text_2()->kirbytext() ?>
     </div>
 
   </main>

@@ -1,5 +1,5 @@
-<?php if($image = $item->coverimage()->toFile()): ?>
+<? if($image = $item->coverimage()->toFile()): ?>
   <figure class="article-coverimage">
-    <img src="<?= $image->thumb(array('width' => 500))->url() ?>" alt="" />
+    <img src="<?= (page()->template() == 'blog') ? $image->thumb(array('width' => 500))->url() : $image->url() ?>" alt="" />
   </figure>
-<?php endif ?>
+<? endif ?>

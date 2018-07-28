@@ -98,6 +98,58 @@ body.page--home .more {
 
 
 
+
+
+/* Basic text definitions */
+/* Headlines */
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+/* Paragraph */
+p {
+  max-width: 42rem;
+  line-height: 1.5rem;
+}
+p + p,
+p + ul,
+ul + p {
+  margin-top: 1rem;
+}
+/* Anchor */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p a {
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.7);
+}
+p a:hover {
+  background: #fff;
+}
+/* Blockquote */
+blockquote {
+  margin: 2rem 0 1rem;
+  border-left: 2px solid #000;
+  padding-left: 1.5rem;
+}
+ul {
+  padding-left: 1rem;
+}
+ul li {
+  list-style: square;
+}
+
+figure img {
+  display: block;
+  max-width: 100%;
+}
+
+
+
+
+
+
 /* Layout */
 .side-panel {
   display: inline-block;
@@ -225,8 +277,10 @@ nav {
 }
 nav ul {
   display: flex;
+  padding: 0;
 }
 nav li {
+  list-style: none;
   width: 25%;
 }
 @media screen and (min-width: 768px) {
@@ -263,50 +317,6 @@ nav li.is-active a {
 nav li + li.is-active a {
   margin-left: -2px;
 }
-
-
-figure img {
-  display: block;
-  max-width: 100%;
-}
-
-
-
-
-
-/* Basic text definitions */
-/* Headlines */
-h1, h2, h3, h4 {
-  font-weight: 700;
-}
-/* Paragraph */
-p {
-  max-width: 48rem;
-  line-height: 1.5rem;
-}
-p + p {
-  margin-top: 1rem;
-}
-/* Anchor */
-a {
-  text-decoration: none;
-  color: inherit;
-}
-p a {
-  font-weight: 500;
-  background: rgba(255, 255, 255, 0.7);
-}
-p a:hover {
-  background: #fff;
-}
-/* Blockquote */
-blockquote {
-  margin: 2rem 0 1rem;
-  border-left: 2px solid #000;
-  padding-left: 1.5rem;
-}
-
-
 
 
 
@@ -347,6 +357,7 @@ button {
   margin-top: 4rem;
 }
 .showcase li {
+  list-style: none;
   margin-bottom: -2px;
   border: 2px solid #000;
   line-height: 1rem;
@@ -361,6 +372,13 @@ button {
 
 
 
+
+
+
+/* Tours: index cards */
+.tours-index {
+  margin-top: 3rem;
+}
 
 /* Card */
 .card {
@@ -391,6 +409,9 @@ button {
   display: flex;
   justify-self: flex-end;
 }
+.lang-switcher li {
+  list-style: none;
+}
 .lang-switcher li a {
   display: block;
   padding: 0.5rem;
@@ -420,7 +441,7 @@ button {
   -moz-appearance: none;
   appearance: none;
   font: inherit;
-  max-width: 48rem;
+  max-width: 42rem;
   padding:  0.75rem 1rem;
   border-radius: 0;
   background: white;
@@ -468,14 +489,15 @@ label, input, textarea, select {
 .article-item {
   position: relative;
   display: flex;
+  flex-direction: column;
   margin-bottom: -2px;
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 2.5rem;
   border: 2px solid #000;
-  line-height: 1rem;
   overflow: hidden;
 }
 @media screen and (min-width: 768px) {
   .article-item {
+    flex-direction: row;
     padding: 2rem;
   }
 }
@@ -495,12 +517,29 @@ label, input, textarea, select {
   background: #000;
   color: white;
 }
-.article-coverimage {
-  max-width: 33.33333%;
-  margin: -2rem -2rem -2rem 2rem;
+.article-item .article-coverimage {
+  order: -1;
+  max-width: calc(100% + 4rem);
+  max-height: 35vw;
+  margin: -2rem -2rem 1.5rem -2rem;
+  overflow: hidden;
 }
-.article-coverimage img {
+@media screen and (min-width: 768px) {
+  .article-item .article-coverimage {
+    order: 2;
+    max-width: 33.33333%;
+    margin: -2rem -2rem -2rem 2rem;
+  }
+}
+.article-item .article-coverimage img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.article-item p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.article-date {
+  opacity: 0.3;
 }
