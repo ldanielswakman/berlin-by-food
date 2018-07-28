@@ -6,6 +6,8 @@ options:
   delete: false
   status: false
 
+icon: envelope-o
+
 fields: 
   title:
     label: Title

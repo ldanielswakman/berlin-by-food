@@ -11,10 +11,16 @@ fields:
     type:  text
     width: 3/4
 
-  year:
-    label: Year
-    type:  text
+  visual:
+    label: Visual
+    type: select
     width: 1/4
+    options:
+      watermelon: Watermelon
+      avocado: Avocado
+      ginger: Ginger
+      aubergine: Aubergine
+      lemon: Lemon
 
   text:
     label: Text

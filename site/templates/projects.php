@@ -12,7 +12,7 @@
         <div class="card" id="<?= $tour->slug() ?>">
           <h3><?= $tour->title()->html() ?></h3>
           <br>
-          <?= $tour->text()->kirbytext() ?>
+          <p><?= $tour->text()->kirbytext()->excerpt(50, 'words') ?></p>
           <br>
           <a href="#" class="button">I'm interested</a>
 

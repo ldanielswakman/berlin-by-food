@@ -5,6 +5,8 @@ files: false
 pages:
   template: project
 
+icon: th-large
+
 options: 
   template: false  
   status: false  
