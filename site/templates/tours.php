@@ -13,7 +13,7 @@
 
           <h3><?= $tour->title()->html() ?></h3>
           <br>
-          <p><?= $tour->text()->kirbytext()->excerpt(50, 'words') ?></p>
+          <p><?= $tour->text()->kirbytext()->excerpt(32, 'words') ?></p>
           <br>
           <a href="<?= $tour->url() ?>#info" class="button"><?= l::get('interested') ?></a>
           &nbsp;&nbsp;&nbsp;&nbsp;
