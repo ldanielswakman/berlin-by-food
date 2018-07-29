@@ -411,6 +411,33 @@ button {
 
 
 
+/* FAQ */
+.faq-items {
+  margin-top: 4rem;
+  padding: 0;
+}
+.faq-item {
+  margin-bottom: -2px;
+  padding: 1rem;
+  border: 2px solid #000;
+  line-height: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .faq-item {
+    padding: 2rem;
+  }
+}
+.faq-item h4 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+
 
 /* Tours: index cards */
 .tours-index {

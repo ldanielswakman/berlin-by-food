@@ -51,4 +51,13 @@ c::set('languages', array(
   ),
 ));
 
+
+c::set('panel.widgets', array(
+  'account'  => true,
+  'history'  => true,
+  'pages'    => true,
+  'site'     => false,
+));
+
+
 c::set('debug', true);

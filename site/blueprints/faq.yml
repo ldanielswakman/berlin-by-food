@@ -1,0 +1,30 @@
+title: FAQ
+
+pages: false
+files: false
+
+options:
+  template: false
+  
+fields:
+  title:
+    label: Title
+    type: title
+    
+  text:
+    label: Text
+    type: textarea
+
+  items:
+    label: Questions & Answers
+    type: structure
+    entry: >
+      <h4 style="font-size: 1.25rem;">{{question}}</h4>
+      {{answer}}
+    fields:
+      question:
+        label: Question
+        type: text
+      answer:
+        label: Answer
+        type: textarea

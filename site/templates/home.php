@@ -14,12 +14,7 @@
   </section>
 
   <section class="projects-section">
-    
-    <div class="wrap wide">
-      <? snippet('showcase') ?>
-      <!-- <p class="projects-section-more"><a href="<?= page('tours')->url() ?>" class="btn">show all projects &hellip;</a></p> -->
-    </div>
-    
+    <? snippet('showcase') ?>
   </section>
 
 </main>

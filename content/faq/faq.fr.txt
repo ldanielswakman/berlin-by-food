@@ -1,0 +1,20 @@
+Title: FAQ
+
+----
+
+Intro: 
+
+----
+
+Text: 
+
+----
+
+Items: 
+
+- 
+  question: How does it work?
+  answer: >
+    Well quite simple, really. You just show
+    up at the right time in the right place,
+    and the rest is taken care of!
