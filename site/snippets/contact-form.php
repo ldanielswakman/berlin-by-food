@@ -17,7 +17,7 @@
         <option value="" hidden>Select tour (optional)</option>
         <!-- normal options -->
         <? foreach (page('tours')->children()->visible() as $tour) : ?>
-            <option><?= $tour->title()->html() ?></option>
+            <option <? e($page == $tour, 'selected') ?>><?= $tour->title()->html() ?></option>
         <? endforeach ?>
     </select>
   </div>

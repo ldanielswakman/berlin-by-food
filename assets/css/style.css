@@ -421,12 +421,18 @@ button {
 .card {
   position: relative;
   height: 100%;
-  padding: 6rem 1rem 2rem;
+  padding: 2rem 1rem;
   background: white;
+}
+.card[class*="visual--"] {
+  padding-top: 6rem;
 }
 @media screen and (min-width: 768px) {
   .card {
-    padding: 6rem 2rem 2rem;
+    padding: 2rem;
+  }
+  .card[class*="visual--"] {
+    padding-top: 6rem;
   }
 }
 .card[class*="visual--"]:before,
