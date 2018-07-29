@@ -12,7 +12,7 @@
 
     </main>
 
-    <br>
+    <br><br>
 
     <p class="footer-copyright"><?= $site->copyright()->html() ?></p>
 

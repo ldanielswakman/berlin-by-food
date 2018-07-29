@@ -2,7 +2,11 @@ Title: Home
 
 ----
 
-Intro: # Who said Berlin was all about Currywurst?
+Intro:
+
+# <mark>Qui a dit que Berlin était tout au sujet de Currywurst?</mark>
+
+> Au Berlin by Food, nous vous montrons tout sur l'autre Berlin - les falafels alléchants, hummus qui rivalise avec les meilleurs au monde, gözleme une maman turque serait fière de, pâtisserie pour faire un Français évanoui, pizza un Naples bambino serait volontiers loupé, sushi jusqu'à présent goûté seulement à Kyoto ...
 
 ----
 

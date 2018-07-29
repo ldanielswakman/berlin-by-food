@@ -24,7 +24,7 @@
     <script>$('body').addClass('isLoading');</script>
 
     <div class="side-panel">
-      <a href="<?= url() ?>" rel="home">
+      <a href="<?= url() ?>" rel="home" class="logo">
         <span style="position: absolute; left: -9999px; opacity: 0;"><?= $site->title()->html() ?></span>
         <img src="<?= url('assets/images/logo.svg') ?>" alt="<?= $site->title()->html() ?>" />
       </a>
