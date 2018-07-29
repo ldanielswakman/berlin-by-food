@@ -1,9 +1,9 @@
-title: Projects
+title: Tours
 
 files: false
 
 pages:
-  template: project
+  template: tour
 
 icon: th-large
 

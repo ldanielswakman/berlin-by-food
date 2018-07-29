@@ -1,10 +1,14 @@
-title: Page
+title: About
 
+pages:
+  template: default
+  num: zero
+  
 fields:
   title:
     label: Title
-    type:  text
-
+    type: title
+    
   text:
     label: Text
-    type:  textarea
+    type: textarea

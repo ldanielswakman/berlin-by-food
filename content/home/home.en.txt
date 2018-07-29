@@ -4,7 +4,7 @@ Title: Home
 
 Intro: 
 
-# Who said Berlin was all about currywurst?
+# <mark>Who said Berlin was all about currywurst?</mark>
 
 > At Berlin by Food, we show you all about the other Berlin – the mouth-watering falafels, hummus that rivals the very best in the world, gözleme a Turkish mama would be proud of, patisserie to make a Frenchman swoon, pizza a Naples bambino would happily wolf down, sushi until now tasted only in Kyoto...
 

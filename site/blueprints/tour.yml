@@ -1,4 +1,4 @@
-title: Project
+title: Tour
 
 files:
   sortable: true
@@ -15,6 +15,7 @@ fields:
     label: Visual
     type: select
     width: 1/4
+    translate: false
     options:
       watermelon: Watermelon
       avocado: Avocado
@@ -24,4 +25,15 @@ fields:
 
   text:
     label: Text
-    type:  textarea
+    type:  markdown
+
+  duration:
+    label: > 
+      Duration <span style="font-weight: normal; color: #ccc;">(hours)</span>
+    type:  number
+    width: 1/2
+
+  starting_point:
+    label: Starting Point
+    type:  text
+    width: 1/2

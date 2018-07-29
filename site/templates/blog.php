@@ -36,7 +36,7 @@
 
             <? snippet('coverimage', $article) ?>
 
-            <object><a class="link" href="<?= $article->url() ?>">Read more</a></object>
+            <object><a class="link" href="<?= $article->url() ?>"><?= l::get('read_more') ?></a></object>
 
           </a>
 

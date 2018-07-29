@@ -6,7 +6,7 @@
   
   <section id="intro" class="intro">
     <?= $page->intro()->kirbytext() ?>
-    <a href="#more" class="button">En garde</a>
+    <a href="#more" class="button"><?= l::get('read_more') ?></a>
   </section>
 
   <section id="more" class="more">

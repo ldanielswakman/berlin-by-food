@@ -1,32 +1,31 @@
 <?php snippet('header') ?>
 
   <main class="main" role="main">
-    
-    <header class="wrap">
+
+    <div class="card visual--<?= $page->visual() ?>">
+
       <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
-        <?= $page->year() ?>
-      </div>
-      <hr />
-    </header>
-    
-    <div class="text wrap">
-      
+      <br>
+
       <?= $page->text()->kirbytext() ?>
 
-      <?php
-      // Images for the "project" template are sortable. You
-      // can change the display by clicking the 'edit' button
-      // above the files list in the sidebar.
-      foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
-        <figure>
-          <img src="<?= $image->url() ?>" alt="<?= $page->title()->html() ?>" />
-        </figure>
-      <?php endforeach ?>
+      <br>
+
+      <? if ($page->duration()->isNotEmpty()) : ?><p class="tour-meta">
+        <?= l::get('duration') ?>: <?= $page->duration()->html() ?><?= ($page->duration()->int() == 1) ? ' ' . l::get('hour') : ' ' . l::get('hours') ?>
+      </p><? endif ?>
+
+      <? if ($page->starting_point()->isNotEmpty()) : ?><p class="tour-meta">
+        <?= l::get('starting_point') ?>: <a href="https://www.google.com/maps/search/?api=1&query=<?= $page->starting_point()->html() ?>+Berlin" target="_blank"><?= $page->starting_point()->html() ?></a>
+      </p><? endif ?>
+
+      <a href="#info" class="button"><?= l::get('request_tour') ?></a>
       
     </div>
-    
-    <?php snippet('prevnext') ?>
+
+    <div class="card" style="margin-top: 0.25rem;" id="info">
+      <? snippet('contact-form') ?>
+    </div>
 
   </main>
 

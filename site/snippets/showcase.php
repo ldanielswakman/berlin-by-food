@@ -1,5 +1,5 @@
 <?
-
+$limit = 3;
 $projects = page('tours')->children()->visible();
 if(isset($limit)) $projects = $projects->limit($limit);
 ?>
@@ -20,3 +20,5 @@ if(isset($limit)) $projects = $projects->limit($limit);
   <?php endforeach ?>
 
 </ul>
+
+<a href="<?= page('tours')->url() ?>" class="button button--small"><?= l::get('see_all') ?></a>
