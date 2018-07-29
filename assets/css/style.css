@@ -53,11 +53,13 @@ body, html {
 html {
   font-size: 125%;
 }
-body.page--home .side-panel {
-  background-image: url('../images/fruit-combo.png');
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: left 70%;
+@media screen and (min-width: 768px) {
+  body.page--home .side-panel {
+    background-image: url('../images/fruit-combo.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: left 70%;
+  }
 }
 body.page--home .intro {
   padding-top: 2rem;
