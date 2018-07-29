@@ -421,8 +421,13 @@ button {
 .card {
   position: relative;
   height: 100%;
-  padding: 6rem 2rem 2rem;
+  padding: 6rem 1rem 2rem;
   background: white;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 6rem 2rem 2rem;
+  }
 }
 .card[class*="visual--"]:before,
 .card[class*="visual--"]:after {
