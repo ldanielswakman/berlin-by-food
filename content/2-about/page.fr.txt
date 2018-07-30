@@ -1,12 +1,4 @@
-Title: Home
-
-----
-
-Intro: 
-
-# <mark>Berlin, c’est bien plus que le currywurst…</mark>
-
-> A Berlin by Food, nous vous montrons l’autre Berlin - des felafels à tomber debout, du houmous aussi bon que le meilleur du Moyen-Orient, des gözleme dont une maman fière turque serait fière, des pâtisseries qui convaincraient même un Français, des pizzas qu’un bambin napolitain dévorerait, des sushis comme ceux de Tokyo…
+Title: About
 
 ----
 
@@ -36,24 +28,4 @@ Si Berlin by Food vous donne faim, envoyez moi un email ou appelez moi. Les tour
 
 Les tours sont en anglais, français ou allemand. My mother tongue is English mais je parle aussi français und wenn ihr Deutsch hören wollt (freilich mit Akzent), dann kein Problem!
 
-Il est important de se souvenir que c’est un tour à pied. Il vous faudra des bonnes chaussures pour les distances et les pavés. Je recommande un k-way et un parapluie - Berlin est plutôt une ville sèche mais on ne sait jamais. Le “Open Spaces” tour n’a lieu seulement quand il fait beau (je n’ai pas quitté l’Angleterre pour rien!)… 
-
-
-Disclaimer: Berlin by Food takes no responsibility for health problems 
-
-
-De la "Gastarbeit" a la gentrification 
-
-Gözleme, houmous, felafel, baklava, flat whites et encore. Ce tour vous emmène a Neukölln, le quartier de Berlin avec le plus grand nombre de groupes ethniques, et donc idéal pour vous faire connaitre une variété de gouts et d’impressions. Vous rencontrerez des immigrés turques, arabes, soudanais, japonais et français qui habitent ici et ont diversifié (pour ne pas dire “amélioré”) le paysage culinaire de la ville.
-
-Pourquoi manger des animaux? 
-
-Le végétarianisme, c’est out. Maintenant, c’est le véganisme qui est in. Sur ce tour, vous pouvez manger des crêpes, des burgers et des pizzas qui ont étés préparés sans trace de viande ou de produit laitier. On vous montrera aussi ou vous pouvez acheter des saucisses de tofu, du lait d’amandes, du fromage sans produit laitier ou de la quinoa, pour que vous puissiez cuisiner végan chez vous (ou dans votre Airbnb)…
-
-En plein air
-
-Berlin est une des capitales les plus vertes du monde et aussi une des plus innovatrices. Sur ce tour, vous pouvez boire de la bière dans un parc conçu pour la chasse aux lapins, boire des cocktails dans un parking, faire un picque-nicque dans un ancien aéroport, manger des gaufres au bord du canal, gouter à des salades toutes fraiches dans un jardin caché ou boire du cafe dans un cimetière. Vous verrez comment les Berlinois font tout ce qu’ils peuvent pour profiter de chaque rayon de soleil envoyé par les dieux! 
-
-Fait-a-mesure
-
-Si ces tours ne vous disent rien ou vous avez envie de manger des gâteaux tout un après-midi ou gouter a six cafés différents, dites-le moi! Nous pouvons personnaliser un tour juste pour vous. Si vous voulez prendre un tour plus ou moins long, no problemo.
+Il est important de se souvenir que c’est un tour à pied. Il vous faudra des bonnes chaussures pour les distances et les pavés. Je recommande un k-way et un parapluie - Berlin est plutôt une ville sèche mais on ne sait jamais. Le “Open Spaces” tour n’a lieu seulement quand il fait beau (je n’ai pas quitté l’Angleterre pour rien!)…

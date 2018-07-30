@@ -1,4 +1,4 @@
-Title: Customised
+Title: Made-to-measure
 
 ----
 
@@ -6,8 +6,16 @@ Year: 2013
 
 ----
 
-Text: Nobody is the same. That’s also how I approach my tours — customised to your interests. So let me know about specific wishes you might have, and I will come up with a customised tour programme.
+Text: If none of these appeal or you just fancy eating sweets for a whole afternoon or tasting six different coffees one morning, just say so. We can talk and tailor-make a tour to suit your specific tastes. If you’d like a shorter or longer tour than the average three-hour session, that’s also possible of course.
 
 ----
 
 Visual: aubergine
+
+----
+
+Duration: 3
+
+----
+
+Starting-point: You tell me!
