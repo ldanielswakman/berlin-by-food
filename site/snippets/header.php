@@ -10,6 +10,8 @@
     <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
     <meta name="description" content="<?= $site->description()->html() ?>">
 
+    <? snippet('google-analytics') ?>
+
     <?= css('assets/css/flexboxgrid2.min.css') ?>
     <?= css('assets/css/style.css') ?>
 
