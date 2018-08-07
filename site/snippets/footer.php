@@ -2,7 +2,7 @@
 
     <main>
 
-      <? $secondmenu_pages = $site->pages()->invisible()->not('home', 'error'); ?>
+      <? $secondmenu_pages = $site->pages()->invisible()->not('home', 'error', 'soon'); ?>
 
       <p>
       <? foreach($secondmenu_pages as $p) : ?>

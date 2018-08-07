@@ -32,9 +32,15 @@ if(!$site->user() && page()->template() != 'soon') go('soon');
         <span style="position: absolute; left: -9999px; opacity: 0;"><?= $site->title()->html() ?></span>
         <img src="<?= url('assets/images/logo.svg') ?>" alt="<?= $site->title()->html() ?>" />
       </a>
-
-      <? snippet('lang-switcher') ?>
       
     </div>
 
-    <? snippet('menu') ?>
+	  <main class="main" role="main">
+	    
+	    <br><br><br>
+	    <h1>Soon, not yet.</h1>
+	    
+	  </main>
+
+</body>
+</html>
