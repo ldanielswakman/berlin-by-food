@@ -19,7 +19,9 @@
         <?= l::get('starting_point') ?>: <a href="https://www.google.com/maps/search/?api=1&query=<?= $page->starting_point()->html() ?>+Berlin" target="_blank"><?= $page->starting_point()->html() ?></a>
       </p><? endif ?>
 
-      <a href="#info" class="button"><?= l::get('request_tour') ?></a>
+      <? if (!$form->success()): ?>
+        <a href="#info" class="button"><?= l::get('request_tour') ?></a>
+      <? endif ?>
       
     </div>
 

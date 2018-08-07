@@ -18,4 +18,4 @@ l::set('message', 'Nachricht');
 l::set('send', 'Senden');
 l::set('error_email', 'Bitte geben Sie eine gültige E-Mail-Adresse ein');
 l::set('error_message', 'Bitte geben Sie eine Nachricht ein (mindestens 10 Zeichen)');
-l::set('success_message', 'Danke für deine Nachricht. Wir werden uns bald bei Ihnen melden!');
+l::set('success_message', 'Vielen Dank für Ihre Anfrage. Wir werden uns bald bei Ihnen melden!');

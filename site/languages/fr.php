@@ -18,4 +18,4 @@ l::set('message', 'Message');
 l::set('send', 'Envoyer');
 l::set('error_email', 'S\'il vous plaît, mettez une adresse email valide');
 l::set('error_message', 'Veuillez entrer un message (min 10 caractères)');
-l::set('success_message', 'Merci pour votre message. Nous reviendrons vers vous bientôt!');
+l::set('success_message', 'Merci pour votre demande. Nous reviendrons vers vous bientôt!');
