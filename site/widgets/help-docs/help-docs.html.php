@@ -6,3 +6,5 @@
 <br><br>
 <a href="options" class="btn btn-rounded"><i class="fa fa-cog"></i> &nbsp; Site options</a>
 <br><br>
+<a href="translations" class="btn btn-rounded"><i class="fa fa-language"></i> &nbsp; Translations</a>
+<br><br>
