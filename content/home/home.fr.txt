@@ -4,7 +4,7 @@ Title: Home
 
 Intro: 
 
-# <mark>Berlin, c’est bien plus que le currywurst…</mark>
+# Berlin, c’est bien plus que le currywurst…
 
 > A Berlin by Food, nous vous montrons l’autre Berlin - des felafels à tomber debout, du houmous aussi bon que le meilleur du Moyen-Orient, des gözleme dont une maman fière turque serait fière, des pâtisseries qui convaincraient même un Français, des pizzas qu’un bambin napolitain dévorerait, des sushis comme ceux de Tokyo…
 

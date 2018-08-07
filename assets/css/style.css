@@ -40,10 +40,10 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f5f6f7;
+  background-color: #F7F7F5;
 
   font-family: "Metric", Arial, sans-serif;
-  color: #000;
+  color: #1B153E;
 
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -78,9 +78,9 @@ body.page--home .intro h1 {
 @media screen and (min-width: 768px) {
   body.page--home .intro h1 {
     display: inline-block;
-    margin-right: -25vw;
-    font-size: 4rem;
-    line-height: 4rem;
+    /*margin-right: -25vw;*/
+    font-size: 3rem;
+    line-height: 3rem;
   }  
 }
 body.page--home .more {
@@ -91,13 +91,11 @@ body.page--home .more {
 
 /* Selection */
 ::-moz-selection {
-  background-color: #ABE8D2;
-  background: #000;
+  background: #E27C7C;
   /*color: #fff;*/
 }
 ::selection {
-  background-color: #ABE8D2;
-  background: #000;
+  background: #E27C7C;
   /*color: #fff;*/
 }
 
@@ -109,8 +107,12 @@ body.page--home .more {
 
 /* Basic text definitions */
 /* Headlines */
+h1 {
+  margin-bottom: 1rem;
+}
 h1, h2, h3, h4 {
   font-weight: 700;
+  color: #1B153E;
 }
 /* Paragraph */
 p {
@@ -156,7 +158,7 @@ p a[href^="https://berlinbyfood"]:after {
 /* Blockquote */
 blockquote {
   margin: 2rem 0 1rem;
-  border-left: 2px solid #000;
+  border-left: 2px solid #1B153E;
   padding-left: 1.5rem;
 }
 ul {
@@ -166,9 +168,9 @@ ul li {
   list-style: square;
 }
 mark {
-  /*background: linear-gradient(to bottom, transparent, transparent 31%, #ABE8D2 32%, #ABE8D2 84%, transparent 85%);*/
-  background: linear-gradient(to bottom, transparent, transparent 31%, #f5f6f7 32%, #f5f6f7 84%, transparent 85%);
-  /*background: #f5f6f7;*/
+  /*background: linear-gradient(to bottom, transparent, transparent 31%, #E27C7C 32%, #E27C7C 84%, transparent 85%);*/
+  background: linear-gradient(to bottom, transparent, transparent 31%, #F7F7F5 32%, #F7F7F5 84%, transparent 85%);
+  /*background: #F7F7F5;*/
 }
 
 figure img {
@@ -215,8 +217,7 @@ figure img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #ABE8D2;
-  background: #f5f6f7;
+  background: #F7F7F5;
   opacity: 0.2;
   mix-blend-mode: lighten;
 }
@@ -337,9 +338,9 @@ nav a {
   display: block;
   padding: 0.5rem 0.25rem;
   background: #fff;
-  color: #000;
+  color: #1B153E;
   text-decoration: none;
-  border: 2px solid #000;
+  border: 2px solid #1B153E;
   text-align: center;
   white-space: nowrap;
 }
@@ -352,13 +353,13 @@ nav li + li a {
   border-left-width: 0;
 }
 nav a:hover {
-  background: #000;
+  background: #1B153E;
   color: #fff;
 }
 nav li.is-active a {
   transform: translateY(-2px);
   border-left-width: 2px;
-  box-shadow: 0 2px #000;
+  box-shadow: 0 2px #1B153E;
 }
 nav li + li.is-active a {
   margin-left: -2px;
@@ -379,20 +380,20 @@ button {
   display: inline-block;
   padding: 0.5rem 1rem;
   background: #fff;
-  color: #000;
+  color: #1B153E;
   text-decoration: none;
-  border: 2px solid #000;
+  border: 2px solid #1B153E;
   box-shadow: 0 0 transparent;
   transition: all 0.2s ease;
   cursor: pointer;
 }
 .button:hover,
 .button:focus {
-  box-shadow: 3px 3px #000;
+  box-shadow: 3px 3px #1B153E;
 }
 .button:active {
   transform: translate(2px, 2px);
-  box-shadow: 1px 1px #000;
+  box-shadow: 1px 1px #1B153E;
 }
 .button.button--small {
   padding: 0.25rem 0.75rem;
@@ -409,7 +410,7 @@ button {
 .showcase li {
   list-style: none;
   margin-bottom: -2px;
-  border: 2px solid #000;
+  border: 2px solid #1B153E;
   line-height: 1rem;
 }
 .showcase li a {
@@ -432,7 +433,7 @@ button {
 .faq-item {
   margin-bottom: -2px;
   padding: 1rem;
-  border: 2px solid #000;
+  border: 2px solid #1B153E;
   line-height: 1rem;
 }
 @media screen and (min-width: 768px) {
@@ -456,6 +457,14 @@ button {
 .tours-index {
   margin-top: 3rem;
 }
+.tours-index__col {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .tours-index__col {
+    margin-bottom: 2rem;
+  }
+}
 
 /* Card */
 .card {
@@ -466,13 +475,14 @@ button {
 }
 .card[class*="visual--"] {
   padding-top: 6rem;
+  padding-bottom: 3rem;
 }
 @media screen and (min-width: 768px) {
   .card {
     padding: 2rem;
   }
   .card[class*="visual--"] {
-    padding-top: 6rem;
+    padding-top: 6.5rem;
   }
 }
 .card[class*="visual--"]:before,
@@ -543,7 +553,7 @@ button {
 }
 .card .tour-meta a:hover {
   margin: 0.5rem 0;
-  color: #000;
+  color: #1B153E;
 }
 
 
@@ -566,12 +576,12 @@ button {
   color: #666;
 }
 .lang-switcher li a:hover {
-  color: #000;
+  color: #1B153E;
 }
 .lang-switcher > li.active a {
-  border-color: #000;
+  border-color: #1B153E;
   font-weight: 600;
-  color: #000;
+  color: #1B153E;
 }
 
 
@@ -601,7 +611,7 @@ button {
 .contact-form textarea:focus,
 .contact-form select:focus {
   outline: none;
-  border-color: #000;
+  border-color: #1B153E;
 }
 .contact-form input.error,
 .contact-form textarea.error,
@@ -642,7 +652,7 @@ label, input, textarea, select {
   flex-direction: column;
   margin-bottom: -2px;
   padding: 1.5rem 1.5rem 2.5rem;
-  border: 2px solid #000;
+  border: 2px solid #1B153E;
   overflow: hidden;
 }
 @media screen and (min-width: 768px) {
@@ -661,10 +671,10 @@ label, input, textarea, select {
   display: inline-block;
   padding: 0.5rem 1rem;
   background: #fff;
-  border: 2px solid #000;
+  border: 2px solid #1B153E;
 }
 .article-item .link:hover {
-  background: #000;
+  background: #1B153E;
   color: white;
 }
 .article-item .article-coverimage {

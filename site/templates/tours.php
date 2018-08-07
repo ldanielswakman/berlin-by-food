@@ -8,7 +8,7 @@
 
     <div class="tours-index row">
       <? foreach (page('tours')->children()->visible() as $tour) : ?>
-      <div class="col-xs-12 col-sm-6" style="margin-bottom: 2rem;">
+      <div class="col-xs-12 col-sm-6 tours-index__col">
         <div class="card visual--<?= $tour->visual() ?>" id="<?= $tour->slug() ?>">
 
           <h3><?= $tour->title()->html() ?></h3>
