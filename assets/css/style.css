@@ -617,7 +617,7 @@ button {
 .contact-form textarea.error,
 .contact-form select.error {
   outline: none;
-  border-color: #f00;
+  border-color: #E27C7C;
 }
 label, input, textarea, select {
   display: block;
@@ -628,9 +628,26 @@ label, input, textarea, select {
   left: -9999px;
 }
 .error {
-  border: 1px solid red;
+  border: 1px solid #E27C7C;
+}
+.error-text {
+  color: #E27C7C;
 }
 
+.success-message {
+  display: flex;
+  margin: 2rem 0;
+}
+.success-message .icon {
+  font-size: 3rem;
+  margin-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .success-message .icon {
+    font-size: 4rem;
+    margin-right: 1rem;
+  }
+}
 
 
 

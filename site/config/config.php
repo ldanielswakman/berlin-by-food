@@ -58,6 +58,3 @@ c::set('panel.widgets', array(
   'pages'    => true,
   'site'     => false,
 ));
-
-
-c::set('debug', true);

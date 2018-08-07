@@ -7,6 +7,7 @@ l::set([
 	'more_info' => 'More info',
 	'request_tour' => 'Request tour',
 	'see_all' => 'See all',
+	'read_blog' => 'Read our blog',
 ]);
 
 // Tour
@@ -25,5 +26,7 @@ l::set([
 	'select_tour' => 'Select tour (optional)',
 	'message' => 'Message',
 	'send' => 'Send',
+	'error_email' => 'Please enter a valid email address',
+	'error_message' => 'Please enter a message (min 10 characters)',
 	'success_message' => 'Thank you for your message. We will get back to you soon!',
 ]);
