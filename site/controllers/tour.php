@@ -28,7 +28,12 @@ return function ($site, $pages, $page)
         // Send email if not in dev env
         if (c::get('env') !== 'DEV') :
             $form->emailAction([
-                'to' => 'hello@ldaniel.eu',
+                'to' => 'info@berlinbyfood.eu',
+                'from' => $form->data('email'),
+                'subject' => $subject,
+            ])
+            ->emailAction([
+                'to' => 'daniel@berlinbyfood.eu',
                 'from' => $form->data('email'),
                 'subject' => $subject,
             ]);
