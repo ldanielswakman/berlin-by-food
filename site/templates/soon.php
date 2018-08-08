@@ -38,7 +38,7 @@ if(!$site->user() && page()->template() != 'soon') go('soon');
 	  <main class="main" role="main">
 	    
 	    <br><br><br>
-	    <h1>Soon, not yet.</h1>
+	    <h1>Coming soon...</h1>
 	    
 	  </main>
 
