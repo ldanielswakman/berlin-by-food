@@ -18,3 +18,9 @@ fields:
   text:
     label: Text
     type:  textarea
+
+  coverimage:
+    label: Cover image
+    type:  image
+    translate: false
+    

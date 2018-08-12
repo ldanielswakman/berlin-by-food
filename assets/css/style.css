@@ -251,7 +251,8 @@ main {
     margin-left: 270px;
     width: calc(100vw - 270px);
   }
-  body.page--home main {
+  body.page--home main,
+  body.page--about main {
     width: calc(100vw - 270px - 33.33333vw);
   }
   body.page--tours main {
@@ -619,6 +620,11 @@ button {
 .contact-form select.error {
   outline: none;
   border-color: #E27C7C;
+}
+.contact-form select {
+  background-image: url('../images/arrow-down.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 label, input, textarea, select {
   display: block;
