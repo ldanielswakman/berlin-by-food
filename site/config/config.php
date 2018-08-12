@@ -45,6 +45,8 @@ c::set('languages', array(
 c::set('panel.widgets', array(
   'account'  => true,
   'history'  => true,
+  'live'    => true,
   'pages'    => true,
+  'help-docs'    => true,
   'site'     => false,
 ));
