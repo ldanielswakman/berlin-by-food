@@ -1,9 +1,5 @@
 title: Page
 
-pages:
-  template: default
-  num: zero
-
 files:
   fields: 
     alt: imagefields

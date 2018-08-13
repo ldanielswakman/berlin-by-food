@@ -1,8 +1,10 @@
-Title: About
+Title: Über uns
 
 ----
 
 Text: 
+
+(image: anne.png width: 100px class: image-right alt: Anne Thomas)
 
 Berlin by Food ist momentan noch eine One-Woman-Show. Die Woman bin ich, Anne, eine franko-amerikanisch-britische Berlinerin, die Deutsch und Russisch studiert hat und Essen liebt. Wenn ich nicht gerade Touren führe, bin ich als Journalistin, Übersetzerin und Koordinatorin für Gunter Demnigs Stolpersteinprojekt tätig. Ich bin also, wie ihr seht, eklektisch und daher euer idealer Guide! Ich wohne seit knapp zehn Jahren in Berlin und habe mich mehrmals „durch die Stadt gegessen“. Ich kann euch Tipps zu den besten Restaurants geben, und ich kann euch die zwielichtigsten Eckkneipen zeigen, letztere sind übrigens eine aussterbende Spezies, insofern solltet ihr euch beeilen, wenn ihr noch ein echtes Berliner Pils und ´ne Molle trinken wollt. Ich kann euch sagen, wo man das beste vegane Schokoeis findet oder den Avocadosmoothie „to die for“. Und ich kann euch zu der Pizza führen, die euch direkt nach Italien katapultiert. 
 Ich kann euch sogar verraten, wo ihr Currywurst und Döner essen solltet – allerdings mit eingeschränkter Haftung, denn ich habe die letzten 20 Jahre kein Fleisch gegessen.

@@ -1,8 +1,10 @@
-Title: About
+Title: À propos
 
 ----
 
 Text: 
+
+(image: anne.png width: 100px class: image-right alt: Anne Thomas)
 
 Actuellement Berlin by Food est un one-woman show. La woman c’est moi - Anne - une Berlinoise franco-américano-anglaise qui a fait des études d’allemand et de russe et aime manger. Quand je ne fais pas la guide, je travaille comme journaliste, traductrice et coordinatrice des Stolpersteine de Gunter Demnig, un projet qui commémore les victimes de l’Holocauste. Avec mon côté éclectique je suis votre guide idéale! J’habite à Berlin depuis presque 10 ans et j’ai parcouru la ville en mangeant. Je peux vous parler des meilleurs restaurants, des Eckkneipe en voie d’extinction (dépêchez-vous de boire votre Berliner Pils et Molle tant qu’il est encore temps !), je peux vous dire où trouver une glace végane divine, un smoothie à l’avocat « to die for », une part de pizza qui vous catapultera en Italie. Je peux même suggérer où aller pour manger une currywurst ou un kebab - même je ne peux pas en juger personnellement car ça fait plusieurs années que je n’ai pas mangé de viande.
 
