@@ -1,11 +1,11 @@
 <?php 
 
 l::set('read_more', 'Read more');
-l::set('interested', 'I\'m interested');
+l::set('interested', 'I\'m in');
 l::set('more_info', 'More info');
 l::set('request_tour', 'Take the tour');
 l::set('see_all', 'See all');
-l::set('read_blog', 'Read our blog');
+l::set('read_blog', 'Our blog');
 l::set('duration', 'Duration');
 l::set('hour', 'hour');
 l::set('hours', 'hours');

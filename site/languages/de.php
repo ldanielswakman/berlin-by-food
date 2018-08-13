@@ -1,11 +1,11 @@
 <?php 
 
 l::set('read_more', 'Weiterlesen');
-l::set('interested', 'Ich bin interessiert');
+l::set('interested', 'Ich habe Lust');
 l::set('more_info', 'Mehr Info');
-l::set('request_tour', 'Tour Anfragen');
+l::set('request_tour', 'Die Tour buchen');
 l::set('see_all', 'Alles sehen');
-l::set('read_blog', 'Lesen Sie unseren Blog');
+l::set('read_blog', 'Unser Blog');
 l::set('duration', 'Dauer');
 l::set('hour', 'Stunde');
 l::set('hours', 'Std');
