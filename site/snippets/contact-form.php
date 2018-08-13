@@ -33,6 +33,15 @@
     <? e($form->error('message'), '<p class="error-text">' . implode('<br>', $form->error('message')) . '</p>') ?>
   </div>
 
+  <div class="data-consent">
+    <p><?= l::get('form_data_consent_text') ?></p>
+    <div class="input">
+      <input type="checkbox" name="data_consent" id="data_consent" required <? e($form->old('data_consent') == true, ' checked') ?> />
+      <label for="data_consent"><?= l::get('form_data_consent_agree') ?></label>
+    </div>
+    <? e($form->error('data_consent'), '<p class="error-text">' . implode('<br>', $form->error('data_consent')) . '</p>') ?>
+  </div>
+
   <?= csrf_field() ?>
   <?= honeypot_field() ?>
 

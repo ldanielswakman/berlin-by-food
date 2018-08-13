@@ -21,6 +21,8 @@ if(!$site->user() && page()->template() != 'soon') go('soon');
     <?= js('assets/js/jquery.smooth-scroll.min.js') ?>
     <?= js('assets/js/scripts.js') ?>
 
+    <? if(c::get('env') !== 'DEV') { snippet('cookie-notice'); } ?>
+
   </head>
 
   <body class="page--<?= $page->template() ?><? e($page->coverimage()->isNotEmpty() , ' page--hasImage') ?>">

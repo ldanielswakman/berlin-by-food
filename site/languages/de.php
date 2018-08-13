@@ -21,3 +21,9 @@ l::set('error_message', 'Bitte geben Sie eine Nachricht ein (mindestens 10 Zeich
 l::set('success_message', 'Vielen Dank für Ihre Anfrage. Wir werden uns bald bei Ihnen melden!');
 l::set('article_appeared_in', 'Dieser Artikel erschien ursprünglich auf');
 l::set('see_original', 'Sehen Sie es hier');
+l::set('cookie_message', 'Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website erhalten');
+l::set('cookie_learn_more', 'Mehr erfahren');
+l::set('cookie_button_text', 'Cookies zulassen');
+l::set('form_data_consent_text', 'In diesem Formular werden Ihre E-Mail-Adresse und Ihr Name erfasst, damit wir Sie bezüglich Ihrer Anfrage kontaktieren können. In unserem Impressum erfahren Sie, wie wir Ihre eingereichten Daten schützen und verwalten.');
+l::set('form_data_consent_agree', 'Ich stimme zu, dass Berlin by Food meine E-Mail und meinen Namen sammelt');
+l::set('form_data_consent_error', 'Bitte kreuzen Sie dieses Kästchen an, um fortzufahren');

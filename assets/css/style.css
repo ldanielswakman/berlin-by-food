@@ -594,7 +594,7 @@ button {
 
 
 /* Contact form */
-.contact-form {
+p + .contact-form {
   margin-top: 2rem;
 }
 .field {
@@ -629,6 +629,44 @@ button {
   background-image: url('../images/caret-down.svg');
   background-repeat: no-repeat;
   background-position: right center;
+}
+.contact-form .data-consent {
+  margin-bottom: 0.5rem;
+}
+.contact-form .data-consent p {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  opacity: 0.5;
+}
+.contact-form .data-consent .input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contact-form input[type="checkbox"] {
+  display: inline-block;
+  padding: 0;
+  width: 2rem;
+  flex-basis: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.contact-form input[type="checkbox"]:checked {
+  background: #1B153E;
+  border-color: #fff;
+  background-image: url('../images/check.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-form input[type="checkbox"]:focus {
+  border-color: #eee;
+}
+.contact-form input[type="checkbox"] + label {
+  display: inline-block;
+  width: auto;
+  cursor: pointer;
 }
 label, input, textarea, select {
   display: block;
@@ -758,4 +796,17 @@ label, input, textarea, select {
 .isLoaded .home-more {
   opacity: 1;
   transform: translateY(0);
+}
+
+
+
+
+/* Cookie Consent Window*/
+.cc-window.cc-floating {
+  max-width: 20rem !important;
+  padding: 1rem !important;
+  font: inherit;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: inherit;
 }

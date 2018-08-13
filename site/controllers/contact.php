@@ -14,6 +14,10 @@ return function ($site, $pages, $page)
             'rules' => ['required', 'minLength' => 10],
             'message' => l::get('error_message'),
         ],
+        'data_consent' => [
+            'rules' => ['required'],
+            'message' => l::get('error_data_consent'),
+        ],
     ]);
 
     $prefix = '[Berlin by Food] New message';
