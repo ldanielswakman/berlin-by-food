@@ -779,6 +779,9 @@ label, input, textarea, select {
 .article-infopanel p {
   font-size: 0.875rem;
 }
+.article-infopanel a {
+  white-space: nowrap;
+}
 
 
 
