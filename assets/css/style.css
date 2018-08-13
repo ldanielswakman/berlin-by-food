@@ -251,8 +251,7 @@ main {
     margin-left: 270px;
     width: calc(100vw - 270px);
   }
-  body.page--home main,
-  body.page--about main {
+  body.page--hasImage main {
     width: calc(100vw - 270px - 33.33333vw);
   }
   body.page--tours main {
@@ -622,7 +621,7 @@ button {
   border-color: #E27C7C;
 }
 .contact-form select {
-  background-image: url('../images/arrow-down.svg');
+  background-image: url('../images/caret-down.svg');
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -726,4 +725,22 @@ label, input, textarea, select {
 }
 .article-date {
   opacity: 0.3;
+}
+
+
+
+/* Homepage more arrow */
+.home-more {
+  position: relative;
+  display: inline-block;
+  margin-left: calc(1px - 0.5rem);
+  margin-top: -1.125rem;
+  opacity: 0;
+  transform: translateY(-1rem);
+  transition: all 1s ease-in-out;
+  transition-delay: 2s;
+}
+.isLoaded .home-more {
+  opacity: 1;
+  transform: translateY(0);
 }

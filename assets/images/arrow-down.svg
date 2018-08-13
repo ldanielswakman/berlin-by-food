@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 58 58" style="enable-background:new 0 0 58 58;" xml:space="preserve">
-<style type="text/css">
-	.st0{opacity:0.3;}
-	.st1{fill:#1B153E;}
-</style>
-<g class="st0">
-	<polygon class="st1" points="29,35.8 20.3,27.1 21.7,25.7 29,33 36.3,25.7 37.7,27.1 	"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="67px" viewBox="0 0 20 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-261.000000, -555.000000)" stroke="#1B153E">
+            <g id="Group-6" transform="translate(262.000000, 556.000000)">
+                <path d="M9,0.897989594 L9,62.5" id="Line-2" stroke-width="1.9047619" stroke-linecap="square"></path>
+                <polyline id="Rectangle-4" stroke-width="2" fill-rule="nonzero" transform="translate(8.985281, 55.485281) rotate(-315.000000) translate(-8.985281, -55.485281) " points="14.9852814 49.4852814 14.9852814 61.4852814 2.98528137 61.4852814"></polyline>
+            </g>
+        </g>
+    </g>
 </svg>

@@ -23,7 +23,7 @@ if(!$site->user() && page()->template() != 'soon') go('soon');
 
   </head>
 
-  <body class="page--<?= $page->template() ?>">
+  <body class="page--<?= $page->template() ?><? e($page->coverimage()->isNotEmpty() , ' page--hasImage') ?>">
 
     <script>$('body').addClass('isLoading');</script>
 
@@ -38,3 +38,6 @@ if(!$site->user() && page()->template() != 'soon') go('soon');
     </div>
 
     <? snippet('menu') ?>
+
+    <? snippet('image-panel') ?>
+    

@@ -2,10 +2,6 @@ Title: Infos et FAQs
 
 ----
 
-Intro: 
-
-----
-
 Text: 
 
 Les tours sont en anglais, français ou allemand. My mother tongue is English mais je parle aussi français und wenn ihr Deutsch hören wollt (freilich mit Akzent), ist das auch kein Problem!
@@ -20,6 +16,18 @@ Disclaimer: Berlin by Food n’assume aucune responsabilité pour les problèmes
 
 Items: 
 
+- 
+  question: How does it work?
+  answer: >
+    Well quite simple, really. You just show
+    up at the right time in the right place,
+    and the rest is taken care of!
+- 
+  question: How does it work?
+  answer: >
+    Well quite simple, really. You just show
+    up at the right time in the right place,
+    and the rest is taken care of!
 - 
   question: How does it work?
   answer: >

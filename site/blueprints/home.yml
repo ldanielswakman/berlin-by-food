@@ -1,10 +1,14 @@
 title: Home
 
-pages: false
-
 options: 
   template: false
   status: false
+
+pages: false
+
+files:
+  fields: 
+    alt: imagefields
 
 fields:
   title:
@@ -13,14 +17,11 @@ fields:
 
   intro:
     label: Intro
-    type:  textarea
+    type:  markdown
 
   text:
     label: Text
-    type:  textarea
+    type:  markdown
 
-  coverimage:
-    label: Cover image
-    type:  image
-    translate: false
+  coverimage: coverimage
     

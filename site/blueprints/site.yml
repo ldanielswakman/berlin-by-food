@@ -12,7 +12,4 @@ fields:
   description:
     label: Description
     type:  textarea
-    
-  copyright:
-    label: Copyright
-    type:  textarea
+    buttons:

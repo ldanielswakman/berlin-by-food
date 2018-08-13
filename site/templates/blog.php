@@ -5,13 +5,7 @@
     <header class="wrap">
       <h1><?= $page->title()->html() ?></h1>
 
-      <?
-      // This page uses a separate controller to set variables, which can be used
-      // within this template file. This results in less logic in your templates,
-      // making them more readable. Learn more about controllers at:
-      // https://getkirby.com/docs/developer-guide/advanced/controllers
-      if($pagination->page() == 1):
-      ?>
+      <? if($pagination->page() == 1): ?>
         <div class="intro text">
           <?= $page->text()->kirbytext() ?>
         </div>

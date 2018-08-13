@@ -1,16 +1,17 @@
 title: Tours
 
-files: false
-
-pages:
-  template: tour
-
-icon: th-large
-
 options: 
   template: false
   delete: false
-  # url: false  
+  # url: false
+
+pages:
+  template: tour
+  num: duration
+
+files: false
+
+icon: th-large
 
 fields:
   title:
@@ -20,9 +21,9 @@ fields:
   text:
     label: Text
     help: Appears above tours
-    type:  textarea
+    type:  markdown
 
   text_2:
     label: Explanation
     help: Appears below tours
-    type:  textarea
+    type:  markdown

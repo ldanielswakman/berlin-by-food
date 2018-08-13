@@ -1,9 +1,9 @@
-<?
-$url = url('assets/images/cover-photo.jpg');
-if($page->coverimage()->isNotEmpty()) :
-	$url = image($page->coverimage())->thumb(['height' => 1200])->url();
-endif;
+<? if($page->coverimage()->isNotEmpty()) :
+	$img = image($page->coverimage());
+	$url = $img->thumb(['height' => 1200])->url();
+	$alt = ($img->alt()->isNotEmpty()) ? $img->alt()->html() : $site->title()->html();
 ?>
 <div class="image-panel">
-  <img src="<?= $url ?>" alt="" />
+  <img src="<?= $url ?>" alt="<?= $alt ?>" />
 </div>
+<? endif ?>

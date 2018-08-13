@@ -16,7 +16,7 @@ return function ($site, $pages, $page)
         ],
     ]);
 
-    $prefix = '[Berlin By Food] New message';
+    $prefix = '[Berlin by Food] New message';
     $subject = ($form->data('name')) ? $prefix . ' from ' . $form->data('name') : $prefix;
 
     if (r::is('POST')) {

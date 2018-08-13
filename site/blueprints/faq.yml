@@ -13,11 +13,12 @@ fields:
     
   text:
     label: Text
-    type: textarea
+    type: markdown
 
   items:
     label: Questions & Answers
     type: structure
+    modalsize: large
     entry: >
       <h4 style="font-size: 1.25rem;">{{question}}</h4>
       {{answer}}
@@ -27,4 +28,14 @@ fields:
         type: text
       answer:
         label: Answer
-        type: textarea
+        type: markdown
+        tools:
+          - bold
+          - italic
+          - strikethrough
+          - blockquote
+          - unorderedList
+          - orderedList
+          - link
+          - image
+          - line

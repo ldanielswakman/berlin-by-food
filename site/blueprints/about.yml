@@ -1,8 +1,10 @@
 title: Page
 
-pages:
-  template: default
-  num: zero
+pages: false
+
+files:
+  fields: 
+    alt: imagefields
   
 fields:
   title:
@@ -11,10 +13,7 @@ fields:
     
   text:
     label: Text
-    type: textarea
+    type: markdown
 
-  coverimage:
-    label: Cover image
-    type:  image
-    translate: false
+  coverimage: coverimage
     

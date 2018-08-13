@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+<? snippet('header') ?>
 
   <main class="main" role="main">
     
@@ -11,7 +11,7 @@
         <hr />
       </header>
       
-      <?php snippet('coverimage', $page) ?>
+      <? snippet('coverimage', $page) ?>
 
       <br>
       
@@ -23,4 +23,4 @@
     
   </main>
 
-<?php snippet('footer') ?>
+<? snippet('footer') ?>

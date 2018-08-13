@@ -1,9 +1,11 @@
 title: Tour
 
+pages: false
+
 files:
   sortable: true
-
-pages: false
+  fields: 
+    alt: imagefields
 
 fields:
   title:

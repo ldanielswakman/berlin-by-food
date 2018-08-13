@@ -1,10 +1,14 @@
 title: Contact
 
-pages: false
-
 options: 
   delete: false
   status: false
+
+pages: false
+
+files:
+  fields: 
+    alt: imagefields
 
 icon: envelope-o
 
@@ -13,10 +17,8 @@ fields:
     label: Title
     type: title
   
-  intro:
-    label: Intro
-    type: markdown
-  
   text:
     label: Text
     type: markdown
+
+  coverimage: coverimage  

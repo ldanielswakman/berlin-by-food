@@ -2,14 +2,17 @@ title: Blog
 
 files: false
 
+options: 
+  template: false
+
 pages:
   template: article
   sort: flip
   num: date
 
-options: 
-  template: false
-  status: false
+files:
+  fields: 
+    alt: imagefields
 
 icon: newspaper-o
 
@@ -30,7 +33,7 @@ fields:
 
   text:
     label: Text
-    type: textarea
+    type: markdown
 
   info:
     label: Hint
