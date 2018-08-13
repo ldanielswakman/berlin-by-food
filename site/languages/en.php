@@ -19,3 +19,5 @@ l::set('send', 'Send');
 l::set('error_email', 'Please enter a valid email address');
 l::set('error_message', 'Please enter a message (min 10 characters)');
 l::set('success_message', 'Thank you for your enquiry. We\'ll get back to you soon!');
+l::set('article_appeared_in', 'This article originally appeared on');
+l::set('see_original', 'See it here');

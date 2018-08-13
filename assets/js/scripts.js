@@ -2,7 +2,7 @@
 $(document).ready(function() {
 	$('body').toggleClass('isLoading isLoaded');
 
-	$('a:not([href^="#"], [href*="google.com/maps"])').click(function() {
+	$('a:not([href^="#"], [href*="google.com/maps"], [target="_blank"])').click(function() {
 		$('body').toggleClass('isLoading isLoaded');
 		// setTimeout(function() { $('body').toggleClass('isLoading isLoaded'); }, 3000);
 	});

@@ -727,6 +727,16 @@ label, input, textarea, select {
   opacity: 0.3;
 }
 
+.article-infopanel {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgba(27, 21, 62, 0.05);
+}
+.article-infopanel p {
+  font-size: 0.875rem;
+}
+
 
 
 /* Homepage more arrow */

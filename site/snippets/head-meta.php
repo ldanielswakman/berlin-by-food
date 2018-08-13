@@ -32,3 +32,7 @@ if($page->text()->isNotEmpty()) { $descr = $page->intro()->excerpt(20, 'words');
 <meta name="description" content="<?= $site->description()->html() ?>">
 
 <link rel="shortcut icon" href="<?= url('assets/images/favicon.png') ?>" />
+
+<? if($page->canonical_url()->isNotEmpty()) : ?>
+<link rel="canonical" href="<?= $page->canonical_url() ?>" />
+<? endif ?>

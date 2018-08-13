@@ -19,11 +19,27 @@ fields:
     icon: calendar
     label: Date
     type: date
-    format: LL
+    format: DD/MM/YYYY
     placeholder: Select a date…
     default: today
     required: true
     width: 1/2
+
+  canonical_url:
+    label: >
+      Original URL <span style="color: #ccc; font-weight: normal;">(optional)</span>
+    type: url
+    help: If article originally appeared somewhere else online, enter URL here
+    width: 1/2
+
+  infopanel:
+    label: >
+      Info panel <span style="color: #ccc; font-weight: normal;">(optional)</span>
+    type: textarea
+    help: In case a general info panel on top of the post is needed
+    buttons: 
+    width: 1/2
+    icon: info
   
   text:
     label: Text
