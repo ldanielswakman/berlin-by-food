@@ -1,4 +1,4 @@
-Title: Berlin By Food
+Title: Berlin by Food
 
 ----
 
@@ -6,7 +6,7 @@ Author: L Daniel Swakman
 
 ----
 
-Description: At Berlin by Food, we show you all about the other Berlin.
+Description: At Berlin by Food, we give you a taste of the other Berlin.
 
 ----
 
