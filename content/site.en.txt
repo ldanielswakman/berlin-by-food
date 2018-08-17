@@ -14,5 +14,3 @@ Footer-menu:
 
 - 
   page: faq
-- 
-  page: imprint
