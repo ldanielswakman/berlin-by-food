@@ -1,5 +1,11 @@
 <? snippet('header') ?>
 
+  <?
+  // Redirect for invisible articles
+  if(!$site->user() && page()->isInvisible()) go('blog');
+  ?>
+
+
   <main class="main" role="main">
     
     <article class="article single wrap">
@@ -10,6 +16,12 @@
         <br>
         <hr />
       </header>
+
+      <? if($site->user() && page()->isInvisible()) : ?>
+        <div class="article-infopanel">
+          <p>This article set to <strong>invisible</strong> and is not public yet.</p>
+        </div>
+      <? endif ?>
 
       <? if ($page->canonical_url()->isNotEmpty()) : ?>
         <div class="article-infopanel">
