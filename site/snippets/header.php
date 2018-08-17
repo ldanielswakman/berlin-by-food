@@ -1,5 +1,12 @@
 <!doctype html>
 
+<?  
+// In maintenance redirect
+if($site->maintenance_mode() == 'true') :
+  if(!$site->user() && page()->template() != 'soon') go('soon');  
+endif;
+?>
+
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 
   <head>

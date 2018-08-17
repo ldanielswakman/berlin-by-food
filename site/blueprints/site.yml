@@ -21,3 +21,11 @@ fields:
         label: Page
         type: select
         options: pages
+
+  maintenance_mode:
+    label: Maintenance mode
+    type: toggle
+    translate: false
+    width: 1/2
+    default: no
+    help: If you turn this option on, the site will be put in maintenance mode and redirect anyone that is not logged in to the 'Coming Soon' page
