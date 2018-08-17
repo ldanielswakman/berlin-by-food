@@ -1,8 +1,4 @@
 <!doctype html>
-<?
-// Temporary redirect; remove when going live
-if(!$site->user() && page()->template() != 'soon') go('soon');
-?>
 
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 

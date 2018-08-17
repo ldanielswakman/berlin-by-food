@@ -7,3 +7,12 @@ Author: L Daniel Swakman
 ----
 
 Description: At Berlin by Food, we give you a taste of the other Berlin.
+
+----
+
+Footer-menu: 
+
+- 
+  page: faq
+- 
+  page: imprint
