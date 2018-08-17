@@ -2,11 +2,9 @@
 
     <main>
 
-      <? $secondmenu_pages = $site->pages()->invisible()->not('home', 'error', 'soon'); ?>
-
       <p>
-      <? foreach($secondmenu_pages as $p) : ?>
-        <a href="<?= $p->url() ?>"><?= $p->title()->html() ?></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <? foreach($site->footer_menu()->toStructure() as $p) : ?>
+        <a href="<?= page($p)->url() ?>"><?= page($p)->title()->html() ?></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <? endforeach ?>
       </p>
 

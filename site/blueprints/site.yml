@@ -13,3 +13,15 @@ fields:
     label: Description
     type:  textarea
     buttons:
+    help: This is the website description that also shows up under the search result in Google
+
+  footer_menu:
+    label: Footer menu
+    type: structure
+    style: table
+    translate: false
+    fields:
+      page:
+        label: Page
+        type: select
+        options: pages
