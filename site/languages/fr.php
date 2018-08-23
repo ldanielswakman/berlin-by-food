@@ -27,3 +27,4 @@ l::set('cookie_button_text', 'Autorise les cookies');
 l::set('form_data_consent_text', 'Ce formulaire recueille votre email et votre nom afin que nous puissions vous contacter au sujet de votre demande. Lisez notre Impressum pour tout savoir sur la façon dont nous protégeons et gérons vos données soumises.');
 l::set('form_data_consent_agree', 'Je consens à ce que Berlin by Food recueille mon email et mon nom');
 l::set('form_data_consent_error', 'Veuillez cocher cette case pour continuer');
+l::set('sticker', 'Les tours commenceront au printemps 2019');

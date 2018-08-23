@@ -38,6 +38,10 @@ endif;
         <img src="<?= url('assets/images/logo.svg') ?>" alt="<?= $site->title()->html() ?>" />
       </a>
 
+      <? if(strlen(l::get('sticker')) > 0) : ?>
+        <div class="sticker"><span><?= l::get('sticker') ?></span></div>
+      <? endif ?>
+
       <? snippet('lang-switcher') ?>
       
     </div>

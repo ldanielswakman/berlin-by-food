@@ -13,6 +13,34 @@ $(document).ready(function() {
 
 
 
+// Component: Randomise sticker
+$(document).ready(function() {
+  if($('.sticker').length > 0) {
+
+    isMob = ($(window).width() < 768) ? true : false;
+    maxRot = 15;
+
+    randLeft = isMob ? getRandomInt(100, 170) : getRandomInt(-100, 30);
+    randTop = isMob ? getRandomInt(120, 150) : getRandomInt(-30, 100);
+    randRot = getRandomInt(-maxRot, maxRot);
+
+    $('.sticker')
+      .css('left', randLeft)
+      .css('top', randTop);
+    $('.sticker span')
+      .css('transform', 'rotate(' + randRot + 'deg)');
+  }
+});
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+
+
+
+
+
 // Component: smoothScroll
 $(document).ready(function() {
   $('a[href^="#"]').smoothScroll({

@@ -303,6 +303,7 @@ main {
 /* Logo */
 .logo {}
 .logo img {
+  max-width: 100%;
   height: 10rem;
   margin-bottom: 1rem;
 }
@@ -568,7 +569,6 @@ button {
 /* Language switcher */
 .lang-switcher {
   display: flex;
-  justify-self: flex-end;
 }
 .lang-switcher li {
   list-style: none;
@@ -588,6 +588,43 @@ button {
   border-color: #1B153E;
   font-weight: 600;
   color: #1B153E;
+}
+
+
+
+
+/* Sticker */
+.sticker {
+  position: relative;
+  z-index: 1000900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.5rem;
+  height: 5.5rem;
+  margin: -3rem 0 auto auto;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: #1B153E;
+  color: #fff;
+  font-size: 0.875rem;
+  text-align: center;
+  line-height: 0.875rem;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  transform: scale(0);
+  -webkit-shape-inside: circle(2.5rem);
+  -moz-shape-inside: circle(2.5rem);
+  shape-inside: circle(2.5rem);
+  transition: all 0.3s ease-in-out;
+}
+.isLoaded .sticker {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.sticker span {
+  position: relative;
 }
 
 
