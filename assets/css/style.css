@@ -84,6 +84,14 @@ body.page--home .intro h1 {
     line-height: 3rem;
   }  
 }
+body.page--home .intro h2 {
+  display: block;
+  margin-top: -0.5rem;
+  color: #E27C7C;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-style: italic;
+}
 body.page--home .more {
   padding-top: 4rem;
 }
