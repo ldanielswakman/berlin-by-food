@@ -50,12 +50,12 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>
 
 # Leverage browser caching
-<IfModule mod_expires.c>
-ExpiresActive On
-ExpiresByType text/css "access 2 week"
-ExpiresByType text/x-javascript "access 2 week"
-ExpiresDefault "access 2 week"
-</IfModule>
+# <IfModule mod_expires.c>
+# ExpiresActive On
+# ExpiresByType text/css "access 2 week"
+# ExpiresByType text/x-javascript "access 2 week"
+# ExpiresDefault "access 2 week"
+# </IfModule>
 
 # Additional recommended values
 # Remove comments for those you want to use.
