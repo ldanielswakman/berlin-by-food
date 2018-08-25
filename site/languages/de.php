@@ -2,9 +2,9 @@
 
 l::set('read_more', 'Weiterlesen');
 l::set('interested', 'Ich habe Lust');
-l::set('more_info', 'Mehr Info');
+l::set('more_info', 'Mehr erfahren');
 l::set('request_tour', 'Die Tour buchen');
-l::set('see_all', 'Alles sehen');
+l::set('see_all', 'Alle Touren sehen');
 l::set('read_blog', 'Unser Blog');
 l::set('duration', 'Dauer');
 l::set('hour', 'Stunde');
@@ -20,7 +20,7 @@ l::set('error_email', 'Bitte geben Sie eine gültige E-Mail-Adresse ein');
 l::set('error_message', 'Bitte geben Sie eine Nachricht ein (mindestens 10 Zeichen)');
 l::set('success_message', 'Vielen Dank für Ihre Anfrage. Wir werden uns bald bei Ihnen melden!');
 l::set('article_appeared_in', 'Dieser Artikel erschien ursprünglich auf');
-l::set('see_original', 'Sehen Sie es hier');
+l::set('see_original', 'Lesen Sie ihn hier');
 l::set('cookie_message', 'Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website erhalten');
 l::set('cookie_learn_more', 'Mehr erfahren');
 l::set('cookie_button_text', 'Cookies zulassen');

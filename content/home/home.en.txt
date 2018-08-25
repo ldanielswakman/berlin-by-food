@@ -6,7 +6,9 @@ Intro:
 
 # Who said Berlin was all about currywurst?
 
-> At Berlin by Food, we show you the other Berlin – the mouth-watering falafels, hummus that rivals the very best in the Middle East, gözleme a Turkish mama would be proud of, patisserie to make a Frenchman swoon, pizza a discerning Naples bambino would happily wolf down, sushi until now tasted only in Tokyo…
+## Tailor-made food tours in English, French and German
+
+> At Berlin by Food, I show you the other Berlin – the mouth-watering falafels, hummus that rivals the very best in the Middle East, gözleme a Turkish mama would be proud of, patisserie to make a Frenchman swoon, pizza a discerning Naples bambino would happily wolf down, sushi until now tasted only in Tokyo…
 
 ----
 
@@ -14,4 +16,4 @@ Text: If your appetite is whetted, fill out the contact form or (email: info@ber
 
 ----
 
-Coverimage: cover-photo.jpg
+Coverimage: img_2731.jpg
