@@ -30,7 +30,7 @@ endif;
 
   <body class="page--<?= $page->template() ?><? e($page->coverimage()->isNotEmpty() , ' page--hasImage') ?>">
 
-    <script>$('body').addClass('isLoading');</script>
+    <script>$('body').addClass('isLoading'); setTimeout(function() { $('body').addClass('isLoaded').removeClass('isLoading'); }, 2000);</script>
 
     <div class="side-panel">
       <a href="<?= url() ?>" rel="home" class="logo">
