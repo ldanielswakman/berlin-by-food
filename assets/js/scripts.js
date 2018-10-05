@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	$('a:not([href^="#"], [href*="google.com/maps"], [target="_blank"])').click(function() {
 		$('body').toggleClass('isLoading isLoaded');
-		// setTimeout(function() { $('body').toggleClass('isLoading isLoaded'); }, 3000);
+		setTimeout(function() { $('body').toggleClass('isLoading isLoaded'); }, 2000);
 	});
 });
 

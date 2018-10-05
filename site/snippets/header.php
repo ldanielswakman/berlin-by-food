@@ -15,8 +15,6 @@ endif;
 
     <? snippet('head-meta') ?>
 
-    <? snippet('google-analytics') ?>
-
     <?= css('assets/css/flexboxgrid2.min.css') ?>
     <?= css('assets/css/style.css') ?>
 
@@ -24,13 +22,16 @@ endif;
     <?= js('assets/js/jquery.smooth-scroll.min.js') ?>
     <?= js('assets/js/scripts.js') ?>
 
-    <? if(c::get('env') !== 'DEV') { snippet('cookie-notice'); } ?>
+    <? if(c::get('env') !== 'DEV') : ?>
+      <? snippet('cookie-notice') ?>
+      <? snippet('google-analytics') ?>
+    <? endif ?>
 
   </head>
 
-  <body class="page--<?= $page->template() ?><? e($page->coverimage()->isNotEmpty() && ($page->template() !== 'article'), ' page--hasImage') ?>">
+  <body class="page--<?= $page->template() ?><? e($page->coverimage()->isNotEmpty() && ($page->template() !== 'article'), ' page--hasImage') ?> isLoaded">
 
-    <script>$('body').addClass('isLoading'); setTimeout(function() { $('body').addClass('isLoaded').removeClass('isLoading'); }, 2000);</script>
+    <script>$('body').addClass('isLoading').removeClass('isLoaded'); setTimeout(function() { $('body').addClass('isLoaded').removeClass('isLoading'); }, 2000);</script>
 
     <div class="side-panel">
       <a href="<?= $site->homepage()->url() ?>" rel="home" class="logo">
