@@ -6,22 +6,22 @@ Text:
 
 Les tours sont en anglais, français ou allemand. My mother tongue is English mais je parle aussi français und wenn Ihr Deutsch hören wollt (freilich mit Akzent), ist das auch kein Problem!
 
-A retenir: c’est un tour à pied. Il vous faudra des bonnes chaussures pour parcourir certaines distances et ne pas sentir les pavés. Je vous conseille d’emporter un k-way et un parapluie – Il ne pleut pas beaucoup à Berlin mais on ne sait jamais. Le tour “En plein air” a lieu seulement quand il fait beau (je n’ai pas quitté l’Angleterre pour rien!) 
+A retenir: c’est un tour à pied. Il vous faudra des bonnes chaussures pour parcourir certaines distances et ne pas sentir les pavés. Je vous conseille d’emporter un k-way et un parapluie – il ne pleut pas beaucoup à Berlin mais on ne sait jamais. Le tour “En plein air” a lieu seulement quand il fait beau (je n’ai pas quitté l’Angleterre pour rien!) 
 
-Les tours durent environ deux heures. Leur durée exacte dépend de la dynamique de groupe et nous pouvons décider spontanément le jour même. 
+Les tours durent environ deux heures, selon la dynamique de groupe et l'ambiance. 
 
-Disclaimer: Berlin by Food n’assume aucune responsabilité pour les problèmes de santé.
+Venez avec appetit et l'esprit ouvert!
 
 ----
 
 Items: 
 
 - 
-  question: How much do the tours cost?
+  question: Combien coûtent les tours?
   answer: >
-    This will depend on the length and the
-    number of people attending but from 35
-    to 50 euros.
+    Cela dépend de la longueur du tour et
+    le nombre de personnes, mais de 35 à 50
+    euros.
 - 
   question: What is included in the price?
   answer: >
@@ -48,14 +48,6 @@ Items:
     A minimum of two people is needed for a
     tour to take place. The maximum is six.
 - 
-  question: When do the tours take place?
-  answer: >
-    Write to us and we’ll set up an
-    appointment
-- 
-  question: Where do the tours begin?
-  answer: That depends on the tour.
-- 
   question: >
     What about food allergies or
     intolerance?
@@ -75,6 +67,13 @@ Items:
     the tour. Participants of Berlin by Food
     tours eat and drink in cafes and
     restaurants of their own accord.
+- 
+  question: "I don't like sharing food. Is this tour right for me?"
+  answer: >
+    Sometimes there might be one dish to
+    share between several people. Please
+    inform Berlin by Food if you are not
+    comfortable sharing with others.
 - 
   question: What happens if it rains or snows?
   answer: >
@@ -98,10 +97,3 @@ Items:
   answer: >
     The tours can be conducted in English,
     French or German (or a mix of them all).
-- 
-  question: "I don't like sharing food. Is this tour right for me?"
-  answer: >
-    Sometimes there might be one dish to
-    share between several people. Please
-    inform Berlin by Food if you are not
-    comfortable sharing with others.

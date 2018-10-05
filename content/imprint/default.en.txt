@@ -2,7 +2,29 @@ Title: Impressum
 
 ----
 
-Text: Coming soon
+Text: 
+
+Imprint according to § 55 Section 2 German Interstate Broadcasting Agreement:
+
+Responsible for content: 
+
+Anne Thomas
+Berlin by Food
+Sonnenallee
+12045 Berlin
+
+Email: info@berlinbyfood.eu
+
+ 
+VAT ID: 
+
+Disclaimer
+
+I assume no liability for the content of external links. The operators of the linked pages are entirely responsible.
+
+ Technical implementation and website support:
+
+L. Daniel Swakman (https://www.ldaniel.eu)
 
 ----
 

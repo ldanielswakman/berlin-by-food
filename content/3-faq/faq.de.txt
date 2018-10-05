@@ -8,11 +8,13 @@ Intro:
 
 Text: 
 
-Die Touren sind auf Englisch, Französisch oder Deutsch. English is my language, mais je parle aussi Français, und wenn Ihr Deutsch hören wollt (freilich mit Akzent), ist das auch kein Problem!
+Die Touren sind auf Englisch, Französisch oder Deutsch. English is my language, mais je parle aussi français, und wenn Ihr Deutsch hören wollt (freilich mit Akzent), ist das auch kein Problem!
 
 Denkt daran, dass die Berlin by food Tour ein Spaziergang ist und Berlin voller Kopfsteinpflaster – zieht Euch also am besten bequeme Schuhe an. Und auch wenn Berlin nicht so nass ist wie London, empfehle ich eine Regenjacke und einen Schirm – man weiß ja nie … Die „Im Freien“-Tour findet aber ohnehin nur bei schönem Wetter statt, denn nicht umsonst habe ich England verlassen.
 
-Berlin by Food haftet nicht für gesundheitliche Probleme.
+Die Touren dauern zwei bis drei Stunden, je nach Gruppendynamik und Laune...
+
+Kommt hungrig und aufgeschlossen!
 
 ----
 
@@ -50,14 +52,6 @@ Items:
     A minimum of two people is needed for a
     tour to take place. The maximum is six.
 - 
-  question: When do the tours take place?
-  answer: >
-    Write to us and we’ll set up an
-    appointment
-- 
-  question: Where do the tours begin?
-  answer: That depends on the tour.
-- 
   question: >
     What about food allergies or
     intolerance?
@@ -78,6 +72,13 @@ Items:
     tours eat and drink in cafes and
     restaurants of their own accord.
 - 
+  question: "I don't like sharing food. Is this tour right for me?"
+  answer: >
+    Sometimes there might be one dish to
+    share between several people. Please
+    inform Berlin by Food if you are not
+    comfortable sharing with others.
+- 
   question: What happens if it rains or snows?
   answer: >
     All tours, except for “Open Air”
@@ -93,17 +94,3 @@ Items:
     mixture of eating while seated and
     walking. Please feel free to tell me if
     you want to walk more or less.
-- 
-  question: >
-    What language do the tours take place
-    in?
-  answer: >
-    The tours can be conducted in English,
-    French or German (or a mix of them all).
-- 
-  question: "I don't like sharing food. Is this tour right for me?"
-  answer: >
-    Sometimes there might be one dish to
-    share between several people. Please
-    inform Berlin by Food if you are not
-    comfortable sharing with others.

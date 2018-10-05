@@ -4,13 +4,13 @@ Title: FAQs
 
 Text: 
 
-You can take the tours in English, French or German. English is my language mais je parle aussi francais und wenn Ihr Deutsch hören wollt (freilich mit Akzent), dann kein Problem! 
+You can take the tours in English, French or German. English is my language mais je parle aussi français und wenn Ihr Deutsch hören wollt (freilich mit Akzent), dann kein Problem! 
 
 What is important is that you remember that this is a walking tour and you therefore need good shoes to cope with the distances and the cobblestones. I recommend that you have waterproofs and an umbrella on hand - Berlin is not typically a wet city but these days you never know. The "Open Spaces" tour only takes place when it is dry (there's a reason why I left the UK!).
 
 Tours last about two to three hours on average. Depending on the dynamics of the group, they might be shorter or longer and we can just play it by ear on the day. 
 
-Come relaxed and open-minded and hungry!
+Come hungry and open-minded!
 
 ----
 
@@ -48,14 +48,6 @@ Items:
     A minimum of two people is needed for a
     tour to take place. The maximum is six.
 - 
-  question: When do the tours take place?
-  answer: >
-    Write to us and we’ll set up an
-    appointment
-- 
-  question: Where do the tours begin?
-  answer: That depends on the tour.
-- 
   question: >
     What about food allergies or
     intolerance?
@@ -76,6 +68,13 @@ Items:
     tours eat and drink in cafes and
     restaurants of their own accord.
 - 
+  question: "I don't like sharing food. Is this tour right for me?"
+  answer: >
+    Sometimes there might be one dish to
+    share between several people. Please
+    inform Berlin by Food if you are not
+    comfortable sharing with others.
+- 
   question: What happens if it rains or snows?
   answer: >
     All tours, except for “Open Air”
@@ -91,17 +90,3 @@ Items:
     mixture of eating while seated and
     walking. Please feel free to tell me if
     you want to walk more or less.
-- 
-  question: >
-    What language do the tours take place
-    in?
-  answer: >
-    The tours can be conducted in English,
-    French or German (or a mix of them all).
-- 
-  question: "I don't like sharing food. Is this tour right for me?"
-  answer: >
-    Sometimes there might be one dish to
-    share between several people. Please
-    inform Berlin by Food if you are not
-    comfortable sharing with others.
