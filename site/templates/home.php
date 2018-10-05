@@ -1,6 +1,8 @@
 <? snippet('header') ?>
 
 <main class="main" role="main">
+
+	<? if($page->isHomePage()) { snippet('lang-switcher'); } ?>
   
   <section id="intro" class="intro">
     <?= $page->intro()->kirbytext() ?>
@@ -11,9 +13,8 @@
     <?= $page->text()->kirbytext() ?>
   </section>
 
-  <section class="projects-section">
-    <? snippet('showcase') ?>
-  </section>
+  <br />
+  <a href="<?= page('tours')->url() ?>" class="button button--small"><?= l::get('see_all') ?></a>
 
 </main>
 

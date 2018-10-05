@@ -28,21 +28,21 @@ endif;
 
   </head>
 
-  <body class="page--<?= $page->template() ?><? e($page->coverimage()->isNotEmpty() , ' page--hasImage') ?>">
+  <body class="page--<?= $page->template() ?><? e($page->coverimage()->isNotEmpty() && ($page->template() !== 'article'), ' page--hasImage') ?>">
 
     <script>$('body').addClass('isLoading'); setTimeout(function() { $('body').addClass('isLoaded').removeClass('isLoading'); }, 2000);</script>
 
     <div class="side-panel">
-      <a href="<?= url() ?>" rel="home" class="logo">
+      <a href="<?= $site->homepage()->url() ?>" rel="home" class="logo">
         <span style="position: absolute; left: -9999px; opacity: 0;"><?= $site->title()->html() ?></span>
         <img src="<?= url('assets/images/logo.svg') ?>" alt="<?= $site->title()->html() ?>" />
       </a>
 
       <? if(strlen(l::get('sticker')) > 0) : ?>
-        <div class="sticker"><span><?= l::get('sticker') ?></span></div>
+        <a href="<?= $site->find('tours')->url() ?>" class="sticker"><span><?= l::get('sticker') ?></span></a>
       <? endif ?>
 
-      <? snippet('lang-switcher') ?>
+      <? if(!$page->isHomePage()) { snippet('lang-switcher'); } ?>
       
     </div>
 

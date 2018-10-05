@@ -6,7 +6,7 @@ Intro:
 
 # Non, à Berlin on ne mange pas que de la currywurst !
 
-## Ballades végétariennes en anglais, français ou allemand
+## <mark>Ballades végétariennes en anglais, français ou allemand</mark>
 
 > **TOUR CULINAIRE n.m. **
 Promenade guidée pendant laquelle vous visitez plusieurs endroits et goûtez à des spécialités différentes pour obtenir une idée du paysage gastronomique d’une ville

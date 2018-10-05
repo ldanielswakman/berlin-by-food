@@ -3,7 +3,8 @@ title: Article
 pages: false
 
 files:
-  fields: imagefields
+  fields:
+    alt: imagefields
 
 fields:
   title:

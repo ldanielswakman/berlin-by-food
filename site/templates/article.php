@@ -5,7 +5,6 @@
   if(!$site->user() && page()->isInvisible()) go('blog');
   ?>
 
-
   <main class="main" role="main">
     
     <article class="article single wrap">
@@ -17,12 +16,14 @@
         <hr />
       </header>
 
+      <? // Draft info panel ?>
       <? if($site->user() && page()->isInvisible()) : ?>
         <div class="article-infopanel">
           <p>This article set to <strong>invisible</strong> and is not public yet.</p>
         </div>
       <? endif ?>
 
+      <? // Original info panel (if canonical URL) ?>
       <? if ($page->canonical_url()->isNotEmpty()) : ?>
         <div class="article-infopanel">
           <p>
@@ -32,12 +33,14 @@
         </div>
       <? endif ?>
 
+      <? // General info panel ?>
       <? if ($page->infopanel()->isNotEmpty()) : ?>
         <div class="article-infopanel">
           <?= $page->infopanel()->kirbytext() ?>
         </div>
       <? endif ?>
-      
+
+      <? // Cover image ?>
       <? snippet('coverimage', $page) ?>
 
       <br>

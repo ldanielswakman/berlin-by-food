@@ -87,7 +87,6 @@ body.page--home .intro h1 {
 body.page--home .intro h2 {
   display: block;
   margin-top: -0.5rem;
-  color: #E27C7C;
   font-size: 1.125rem;
   font-weight: normal;
 }
@@ -100,11 +99,9 @@ body.page--home .more {
 /* Selection */
 ::-moz-selection {
   background: #E27C7C;
-  /*color: #fff;*/
 }
 ::selection {
   background: #E27C7C;
-  /*color: #fff;*/
 }
 
 
@@ -163,10 +160,18 @@ ul li {
   list-style: square;
 }
 mark {
-  /*background: linear-gradient(to bottom, transparent, transparent 31%, #E27C7C 32%, #E27C7C 84%, transparent 85%);*/
-  background: linear-gradient(to bottom, transparent, transparent 31%, #F7F7F5 32%, #F7F7F5 84%, transparent 85%);
-  /*background: #F7F7F5;*/
+  background: none;
+  color: #E27C7C;
 }
+/* Selection */
+mark::-moz-selection {
+  color: #1B153E;
+}
+mark::selection {
+  color: #1B153E;
+}
+
+
 
 figure img {
   display: block;
@@ -206,9 +211,12 @@ figure.image-right {
 }
 .image-panel {
   position: relative;
-  display: inline-block;
+  display: none;
   width: 50vw;
   max-height: 50vh;
+}
+.page--hasImage .image-panel {
+  display: inline-block;
 }
 .image-panel:before {
   content: '';
@@ -563,6 +571,7 @@ button {
 /* Language switcher */
 .lang-switcher {
   display: flex;
+  padding-left: 0;
 }
 .lang-switcher li {
   list-style: none;
@@ -599,7 +608,7 @@ button {
   margin: -3rem 0 auto auto;
   padding: 0.5rem;
   border-radius: 50%;
-  background: #1B153E;
+  background: #E27C7C;
   color: #fff;
   font-size: 0.875rem;
   text-align: center;
@@ -814,6 +823,24 @@ label, input, textarea, select {
   white-space: nowrap;
 }
 
+
+
+/* Blog article show page*/
+.page--article .article-coverimage {
+  max-height: 60vh;
+  overflow: hidden;
+}
+.page--article .article-coverimage img {
+  width: 100%;
+}
+.page--article figcaption {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  opacity: 0.3;
+}
+.page--article .text figure {
+  margin: 1rem 0;
+}
 
 
 /* Homepage more arrow */

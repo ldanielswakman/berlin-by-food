@@ -6,7 +6,7 @@ Intro:
 
 # In Berlin geht es nicht nur um Currywurst
 
-## Vegetarische Spaziergänge auf Englisch, Französisch und Deutsch
+## <mark>Vegetarische Spaziergänge auf Englisch, Französisch und Deutsch</mark>
 
 >**FOOD-TOUR Substantiv, feminin**
 Spaziergang während dessen man mehrere Lokale besucht und verschiedene Spezialitäten verkostet, um einen Einblick in die kulinarische Landschaft einer Stadt zu bekommen
