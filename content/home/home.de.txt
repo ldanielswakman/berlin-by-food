@@ -5,15 +5,12 @@ Title: Home
 Intro: 
 
 # In Berlin geht es nicht nur um Currywurst
-
 ## <mark>Vegetarische Spaziergänge auf Englisch, Französisch und Deutsch</mark>
-
->**FOOD-TOUR Substantiv, feminin**
-Spaziergang während dessen man mehrere Lokale besucht und verschiedene Spezialitäten verkostet, um einen Einblick in die kulinarische Landschaft einer Stadt zu bekommen
-
-
->Berlin by Food zeigt Euch das andere Berlin – leckeren Falafel und Hummus, den man sonst nur im Nahen Osten findet, Gözleme, auf die selbst eine türkische Mama stolz wäre, Käse, an dem sogar Franzosen ihre Freude haben, Pizza, die jedes Kind in Neapel zu seinem Lieblingsessen ausrufen würde...
 
 ----
 
-Text: Wenn Euer Appetit geweckt ist, sucht Euch eine Tour aus und (email: info@berlinbyfood.eu text: schickt eine Mail) oder ruft an. Die Touren werden individuell auf Euch zugeschneidert; die Gruppen bleiben klein und es gibt kein Mikrophon.
+Text: 
+
+Berlin by Food zeigt Euch das andere Berlin – leckeren Falafel und Hummus, den man sonst nur im Nahen Osten findet, Gözleme, auf die selbst eine türkische Mama stolz wäre, Käse, an dem sogar Franzosen ihre Freude haben, Pizza, die jedes Kind in Neapel zu seinem Lieblingsessen ausrufen würde...
+
+Wenn Euer Appetit geweckt ist, sucht Euch eine Tour aus und (email: info@berlinbyfood.eu text: schickt eine Mail) oder ruft an. Die Touren werden individuell auf Euch zugeschneidert; die Gruppen bleiben klein und es gibt kein Mikrophon.
