@@ -66,7 +66,7 @@ body.page--home .intro {
 }
 @media screen and (min-width: 768px) {
   body.page--home .intro {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     padding-top: 9rem;
   }
 }
@@ -88,11 +88,12 @@ body.page--home .intro h2 {
   display: block;
   margin-top: -0.5rem;
   font-size: 1.125rem;
-  font-weight: normal;
+  font-weight: 500;
 }
 body.page--home .more {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
+
 
 
 
@@ -282,21 +283,34 @@ main {
 .image-panel {
   transition-delay: 0.4s;
 }
+.page--home .more {
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  transition-delay: 1.5s;
+}
+/* isLoading */
 .isLoading .side-panel,
 .isLoading main {
   opacity: 0;
   transform: translateX(-1rem);
 }
+.page--home.isLoading .more {
+  opacity: 0;
+  transform: translateY(2rem);
+}
 .isLoading .image-panel {
   opacity: 0;
 }
+/* isLoaded */
 .isLoaded .side-panel,
 .isLoaded .image-panel,
 .isLoaded main {
   opacity: 1;
   transform: translateX(0);
 }
-
+.page--home.isLoaded .more {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
 
