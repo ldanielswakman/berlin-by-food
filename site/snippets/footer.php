@@ -1,4 +1,4 @@
-  <footer class="footer cf" role="contentinfo">
+  <footer class="footer">
 
     <main>
 
@@ -7,12 +7,12 @@
         <a href="<?= page($p)->url() ?>"><?= page($p)->title()->html() ?></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <? endforeach ?>
       </p>
+      
+      <p class="colophon"><small><a href="https://ldaniel.eu" target="_blank">designed & built by ldaniel.eu</a></small></p>
+
+      <br/><br/>
 
     </main>
-
-    <br><br>
-
-    <p class="footer-copyright"><?= $site->copyright()->html() ?></p>
 
   </footer>
 

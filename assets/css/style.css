@@ -756,7 +756,39 @@ label, input, textarea, select {
 
 /* Footer */
 .footer {
+  margin-top: 1rem;
   min-height: 5rem;
+}
+.footer main {
+  position: relative;
+}
+.footer main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  height: 2px;
+  width: 3rem;
+  background: #1B153E;
+}
+@media screen and (min-width: 768px) {
+  .footer main:before {
+    left: 2rem;
+  }
+}
+.footer .colophon {
+  margin: 0;
+}
+.footer .colophon a {
+  font-weight: normal;
+  background: transparent;
+  opacity: 0.25;
+}
+.footer .colophon a:hover {
+  opacity: 0.5;
+}
+.footer .colophon a:active {
+  opacity: 0.8;
 }
 
 
