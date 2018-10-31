@@ -1,10 +1,10 @@
-Title: Impressum
+Title: Imprint
 
 ----
 
 Text: 
 
-Imprint according to § 55 Section 2 German Interstate Broadcasting Agreement:
+Imprint according to § 55 Section 2 German Interstate Broadcasting Agreement
 
 Responsible for content: 
 
@@ -15,14 +15,17 @@ Sonnenallee
 
 Email: info@berlinbyfood.eu
 
- 
 VAT ID: 
 
 Disclaimer
 
 I assume no liability for the content of external links. The operators of the linked pages are entirely responsible.
 
- Technical implementation and website support:
+Privacy Policy
+
+Berlin by Food takes your privacy seriously. This policy has been drafted in accordance with the requirements of the General Data Protection Regulations (“GDPR”). Cookies are used and personal data collected for the sole purpose of ensuring that your request for a food tour or enquiry can be processed as effficiently as possible. No data is provided to third parties. 
+
+Web design and support:
 
 L. Daniel Swakman (https://www.ldaniel.eu)
 

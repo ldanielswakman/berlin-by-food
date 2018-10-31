@@ -6,7 +6,7 @@ Year: 2013
 
 ----
 
-Text: Si ces tours ne vous disent rien, si vous avez envie de manger des gâteaux pendant tout un après-midi ou essayer six sortes de café différentes, dites-le moi! Nous organiserons un tour à votre goût. Et si vous voulez prendre un tour plus ou moins long, pas de problème!
+Text: Si les autres tours ne vous disent rien, si vous avez envie de manger des gâteaux pendant tout un après-midi ou essayer six sortes de café différentes, dites-le moi! Nous organiserons un tour à votre goût. Et si vous voulez prendre un tour plus ou moins long, pas de problème!
 
 ----
 
