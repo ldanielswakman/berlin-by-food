@@ -18,7 +18,7 @@
     <label><?= l::get('tour') ?></label>
     <select<? if ($form->error('name')): ?> class="error"<? endif; ?> name="tour">
         <!-- placeholder item -->
-        <option value="" hidden>Select tour (optional)</option>
+        <option value="" hidden><?= l::get('select_tour') ?></option>
         <!-- normal options -->
         <? foreach (page('tours')->children()->visible() as $tour) : ?>
             <option <? e($page == $tour, 'selected') ?>><?= $tour->title()->html() ?></option>
