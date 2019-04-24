@@ -4,14 +4,6 @@ Title: FAQs
 
 Text: 
 
-You can take the tours in English, French or German. English is my language mais je parle aussi français und wenn Ihr Deutsch hören wollt (freilich mit Akzent), dann kein Problem! 
-
-What is important is that you remember that this is a walking tour and you therefore need good shoes to cope with the distances and the cobblestones. I recommend that you have waterproofs and an umbrella on hand - Berlin is not typically a wet city but these days you never know. The "Open Spaces" tour only takes place when it is dry (there's a reason why I left the UK!).
-
-Tours last about two to three hours on average. Depending on the dynamics of the group, they might be shorter or longer and we can just play it by ear on the day. 
-
-Come hungry and open-minded!
-
 ----
 
 Items: 
@@ -39,7 +31,7 @@ Items:
 - 
   question: Who can take the tours?
   answer: >
-    Anyone. Please let me know in advance if
+    Anyone. Please let us know in advance if
     there are children, elderly people or
     wheelchair-bound guests.
 - 
@@ -55,25 +47,22 @@ Items:
     Berlin by Food tours are vegetarian or
     vegan. Please tell us in advance if you
     have any allergies or intolerances.
-    Berlin by Food is not responsible for
-    any indigestion or illness that may
-    arise as a result of eating food on a
-    tour.
 - 
   question: What happens if I get ill?
   answer: >
-    Berlin by Food takes no responsibility
+    Berlin by Food accepts no responsibility
     for illness that arises during or after
-    the tour. Participants of Berlin by Food
-    tours eat and drink in cafes and
-    restaurants of their own accord.
+    the tour. Participants of the tours eat
+    and drink in cafes and restaurants of
+    their own accord.
 - 
   question: "I don't like sharing food. Is this tour right for me?"
   answer: >
-    Sometimes there might be one dish to
-    share between several people. Please
-    inform Berlin by Food if you are not
-    comfortable sharing with others.
+    Sometimes there might be one or several
+    dishes to share tour between
+    participants. Please inform Berlin by
+    Food if you are not comfortable sharing
+    with others.
 - 
   question: What happens if it rains or snows?
   answer: >
@@ -83,10 +72,4 @@ Items:
     comfortable shoes.
 - 
   question: Do we walk the whole time?
-  answer: >
-    We can play it by ear depending on the
-    number of people on the tour and levels
-    of tiredness. A tour should be a relaxed
-    mixture of eating while seated and
-    walking. Please feel free to tell me if
-    you want to walk more or less.
+  answer: 'We  play it by ear depending on the number of people on the tour and levels of tiredness. A tour should be a relaxed mixture of eating while seated and walking. Please feel free to say if you want to walk more or less.'

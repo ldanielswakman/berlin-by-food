@@ -8,89 +8,70 @@ Intro:
 
 Text: 
 
-Die Touren sind auf Englisch, Französisch oder Deutsch. English is my language, mais je parle aussi français, und wenn Ihr Deutsch hören wollt (freilich mit Akzent), ist das auch kein Problem!
-
-Denkt daran, dass die Berlin by food Tour ein Spaziergang ist und Berlin voller Kopfsteinpflaster – zieht Euch also am besten bequeme Schuhe an. Und auch wenn Berlin nicht so nass ist wie London, empfehle ich eine Regenjacke und einen Schirm – man weiß ja nie … Die „Im Freien“-Tour findet aber ohnehin nur bei schönem Wetter statt, denn nicht umsonst habe ich England verlassen.
-
-Die Touren dauern zwei bis drei Stunden, je nach Gruppendynamik und Laune...
-
-Kommt hungrig und aufgeschlossen!
-
 ----
 
 Items: 
 
 - 
-  question: How much do the tours cost?
-  answer: >
-    This will depend on the length and the
-    number of people attending but from 35
-    to 50 euros.
+  question: Wie viel kostet eine Tour?
+  answer: 'Das hängt von der Dauer und Anzahl der Teilnehmer ab: zwischen 35 und 50 Euro.'
 - 
-  question: What is included in the price?
+  question: Was enthält der Preis?
   answer: >
-    All food and one alcoholic drink (extra
-    drinks are paid out of pocket) – you
-    should be full by the end!
+    Das ganze Essen und ein alkoholisches
+    Getränk (andere Getränke müssen
+    selbst bezahlt werden). Ihr solltet am
+    Ende satt sein!
 - 
-  question: Are there discounts?
-  answer: Children under 12 don’t pay
+  question: Gibt es Rabatte?
+  answer: Kinder unter 12 bezahlen nicht.
 - 
-  question: How long does a tour last?
+  question: Wie lang dauert eine Tour?
+  answer: 'Das hängt von euch ab: zwischen zwei und drei Stunden.'
+- 
+  question: Wer kann an einer Tour teilnehmen?
   answer: >
-    This is up to you but between two and
-    three hours, give or take.
+    Jeder! Sagt mir einfach im Voraus
+    Bescheid, falls Kinder, ältere Menschen
+    oder Menschen im Rollstuhl dabei sind.
 - 
-  question: Who can take the tours?
-  answer: >
-    Anyone. Please let me know in advance if
-    there are children, elderly people or
-    wheelchair-bound guests.
-- 
-  question: How big are the groups?
-  answer: >
-    A minimum of two people is needed for a
-    tour to take place. The maximum is six.
+  question: Wie groß sind die Gruppen?
+  answer: Mindestens 2 und höchstens 6 Personen.
 - 
   question: >
-    What about food allergies or
-    intolerance?
+    Ich habe eine Allergie oder eine
+    Intoleranz. Kann ich trotzdem
+    teilnehmen?
   answer: >
-    Berlin by Food tours are vegetarian or
-    vegan. Please tell us in advance if you
-    have any allergies or intolerances.
-    Berlin by Food is not responsible for
-    any indigestion or illness that may
-    arise as a result of eating food on a
-    tour.
+    Die Toure sind alle vegetarisch oder
+    vegan. Sagt bitte im Voraus, falls ihr
+    eine Allergie oder Intoleranz habt.
 - 
-  question: What happens if I get ill?
+  question: Was passiert, wenn ich krank werde?
   answer: >
-    Berlin by Food takes no responsibility
-    for illness that arises during or after
-    the tour. Participants of Berlin by Food
-    tours eat and drink in cafes and
-    restaurants of their own accord.
+    Berlin by Food haftet nicht für
+    Magen-Darm-Beschwerden oder Krankheiten,
+    die während oder nach einer Tour
+    entstehen.
 - 
-  question: "I don't like sharing food. Is this tour right for me?"
+  question: >
+    Ich mag Essen nicht teilen. Ist diese
+    Tour was für mich?
   answer: >
-    Sometimes there might be one dish to
-    share between several people. Please
-    inform Berlin by Food if you are not
-    comfortable sharing with others.
+    Es kann sein, dass die Teilnehmenden ein
+    oder zwei Gerichte teilen. Bitte sagt
+    vorab, falls ihr Essen nicht teilen
+    wollt.
 - 
-  question: What happens if it rains or snows?
+  question: Was passiert bei Regen oder Schnee?
   answer: >
-    All tours, except for “Open Air”
-    take place whatever the weather. Please
-    wear appropriate clothing and
-    comfortable shoes.
+    Außer der „Im Freien“-Tour, finden
+    alle Touren statt. Daher bitte passende
+    Kleidung und Schuhe tragen.
 - 
-  question: Do we walk the whole time?
+  question: Laufen wir die ganze Zeit?
   answer: >
-    We can play it by ear depending on the
-    number of people on the tour and levels
-    of tiredness. A tour should be a relaxed
-    mixture of eating while seated and
-    walking. Please feel free to tell me if
-    you want to walk more or less.
+    Eine Tour sollte eine entspannte
+    Mischung aus Sitzen, Essen und Laufen
+    sein. Bitte sagt mir Bescheid, falls ihr
+    mehr oder weniger laufen wollt.

@@ -6,7 +6,7 @@ Year: 2012
 
 ----
 
-Text: Berlin ist eine der grünsten Hauptstädte der Welt und eine der innovativsten. Auf dieser Tour trinkt Ihr Bier in der Hasenheide, Cocktails auf einem Parkplatz und Kaffee auf einem Friedhof. Ihr esst Waffeln am Kanal, Salat in einem versteckten Garten, und vor allem seht Ihr, wie die Berliner jede Sekunde des von den Göttern geschickten Sonnenscheins ausnützen und genießen!
+Text: Berlin ist eine der grünsten Hauptstädte der Welt. Auf dieser Tour trinkt ihr Bier in der Hasenheide, Cocktails auf einem Parkplatz und Kaffee auf einem Friedhof. Ihr esst Waffeln am Kanal, Salat in einem versteckten Garten und vor allem seht ihr, wie die Berliner jede Sekunde des von den Göttern geschickten Sonnenscheins ausnutzen und genießen.
 
 ----
 

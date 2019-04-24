@@ -27,4 +27,4 @@ l::set('cookie_button_text', 'Allow cookies');
 l::set('form_data_consent_text', 'This form collects your email and name so that we can get in touch with you about your request. Read our Impressum for the full story on how we protect and manage your submitted data.');
 l::set('form_data_consent_agree', 'I consent to Berlin by Food collecting my email and name');
 l::set('form_data_consent_error', 'Please tick this box to continue');
-l::set('sticker', 'Tours begin in spring 2019');
+l::set('sticker', 'Tours begin in summer 2019');

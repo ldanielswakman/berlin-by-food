@@ -4,14 +4,6 @@ Title: FAQ
 
 Text: 
 
-Les tours sont en anglais, français ou allemand. My mother tongue is English mais je parle aussi français und wenn Ihr Deutsch hören wollt (freilich mit Akzent), ist das auch kein Problem!
-
-A retenir: c’est un tour à pied. Il vous faudra des bonnes chaussures pour parcourir certaines distances et ne pas sentir les pavés. Je vous conseille d’emporter un k-way et un parapluie – il ne pleut pas beaucoup à Berlin mais on ne sait jamais. Le tour “En plein air” a lieu seulement quand il fait beau (je n’ai pas quitté l’Angleterre pour rien!) 
-
-Les tours durent environ deux heures, selon la dynamique de groupe et l'ambiance. 
-
-Venez avec appetit et l'esprit ouvert!
-
 ----
 
 Items: 
@@ -23,77 +15,44 @@ Items:
     le nombre de personnes, mais de 35 à 50
     euros.
 - 
-  question: What is included in the price?
-  answer: >
-    All food and one alcoholic drink (extra
-    drinks are paid out of pocket) – you
-    should be full by the end!
+  question: "Qu'est-ce que le prix inclus?"
+  answer: 'Toute la nourriture et **une** boisson alcoolique. Vous ne deviez plus avoir faim à la fin.'
 - 
-  question: Are there discounts?
-  answer: Children under 12 don’t pay
-- 
-  question: How long does a tour last?
+  question: "Est-ce qu'il y a des réductions?"
   answer: >
-    This is up to you but between two and
-    three hours, give or take.
+    Les enfants de moins de 12 ans ne paient
+    pas.
 - 
-  question: Who can take the tours?
+  question: Combien de temps dure un tour?
   answer: >
-    Anyone. Please let me know in advance if
-    there are children, elderly people or
-    wheelchair-bound guests.
+    Cela dépend un peu de vous mais entre
+    deux et trois heures.
 - 
-  question: How big are the groups?
-  answer: >
-    A minimum of two people is needed for a
-    tour to take place. The maximum is six.
+  question: Qui peut participer?
+  answer: "Tout le monde. Dites-moi tout simplement avant s'il y a des enfants, des personnes âgées ou des personnes en fauteuil roulant."
 - 
-  question: >
-    What about food allergies or
-    intolerance?
+  question: Quelle taille font les groupes?
   answer: >
-    Berlin by Food tours are vegetarian or
-    vegan. Please tell us in advance if you
-    have any allergies or intolerances.
-    Berlin by Food is not responsible for
-    any indigestion or illness that may
-    arise as a result of eating food on a
-    tour.
+    Il faut un minimum de deux personnes
+    pour un tour. Le maximum est six.
 - 
-  question: What happens if I get ill?
+  question: "J'ai une allergie ou une intolérance. Qu'est-ce que je fais?"
   answer: >
-    Berlin by Food takes no responsibility
-    for illness that arises during or after
-    the tour. Participants of Berlin by Food
-    tours eat and drink in cafes and
-    restaurants of their own accord.
+    Les tours sont végétariens ou vegans.
+    Dites moi en avance si vous avez des
+    allergies ou une intolérance.
 - 
-  question: "I don't like sharing food. Is this tour right for me?"
+  question: Que se passe-t-il si je tombe malade?
   answer: >
-    Sometimes there might be one dish to
-    share between several people. Please
-    inform Berlin by Food if you are not
-    comfortable sharing with others.
+    Berlin by Food ne peut accepter aucune
+    responsabilité si une personne tombe
+    malade pendant ou après un tour.
 - 
-  question: What happens if it rains or snows?
-  answer: >
-    All tours, except for “Open Air”
-    take place whatever the weather. Please
-    wear appropriate clothing and
-    comfortable shoes.
+  question: "Je n'aime pas partager la nourriture. Est-ce que ce tour est pour moi?"
+  answer: "Il se peut que les participants d'un tour soient amener à partager un ou plusieurs plats. Dites Berlin by Food en avance si vous ne voulez pas partager avec d'autres."
 - 
-  question: Do we walk the whole time?
-  answer: >
-    We can play it by ear depending on the
-    number of people on the tour and levels
-    of tiredness. A tour should be a relaxed
-    mixture of eating while seated and
-    walking. Please feel free to tell me if
-    you want to walk more or less.
+  question: "Que se passe-t-il s'il pleut ou neige?"
+  answer: "Tous les tours (sauf «En plein air») ont lieu même s'il ne fait pas particulièrement beau. On vous recommande de porter des vêtements et chaussures convenables."
 - 
-  question: >
-    What language do the tours take place
-    in?
-  answer: >
-    The tours can be conducted in English,
-    French or German (or a mix of them all).
+  question: Est-ce que nous marchons tout le temps?
+  answer: "Nous sommes flexibles selon le nombre de personnes et les niveaux de fatigue. L'idée est d'être relax et de manger assis ainsi que de marcher entre les cafés et restaurants. Dites-le moi SVP si vous préférez marcher plus ou moins."
