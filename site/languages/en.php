@@ -5,7 +5,7 @@ l::set('interested', 'I\'m in');
 l::set('more_info', 'Find out more');
 l::set('request_tour', 'Book the tour');
 l::set('see_all', 'See all tours');
-l::set('read_blog', 'Our blog');
+l::set('read_blog', 'The blog');
 l::set('duration', 'Duration');
 l::set('hour', 'hour');
 l::set('hours', 'hours');

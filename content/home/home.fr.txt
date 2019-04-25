@@ -5,7 +5,7 @@ Title: Home
 Intro: 
 
 # Non, à Berlin on ne mange pas que de la currywurst !
-## <mark>Ballades végétariennes en anglais, français ou allemand</mark>
+## <mark>Ballades végétariennes en anglais, français et allemand</mark>
 
 ----
 
@@ -13,6 +13,6 @@ Text:
 
 Berlin by Food fait découvrir l’autre Berlin - des falafels qui mettent l’eau à la bouche, du houmous qui rivalise avec les saveurs du Moyen-Orient, des gözlemes dont s’enorgueillirait une maman turque, des fromages auxquels même un Français ne saurait résister, des pizzas qu’un gamin napolitain adorerait...
 
-Si tout cela vous donne faim, choissisez le tour qui vous dit et (email: info@berlinbyfood.eu text: envoyez un mail ) ou appelez. Les tours sont privés et faits à mesure. Les groupes sont petits et il n'y a pas de microphone.
+Si tout cela vous donne faim, choissisez le tour qui vous dit et remplissez (link: https://berlinbyfood.eu/fr/contact// text: le formulaire) ou (email: info@berlinbyfood.eu text: envoyez un mail ).
 
 Un tour coûte entre 35 et 50 euros par personne.

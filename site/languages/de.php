@@ -5,7 +5,7 @@ l::set('interested', 'Ich habe Lust');
 l::set('more_info', 'Mehr erfahren');
 l::set('request_tour', 'Die Tour buchen');
 l::set('see_all', 'Alle Touren sehen');
-l::set('read_blog', 'Unser Blog');
+l::set('read_blog', 'Der Blog');
 l::set('duration', 'Dauer');
 l::set('hour', 'Stunde');
 l::set('hours', 'Std');
@@ -25,6 +25,6 @@ l::set('cookie_message', 'Diese Website verwendet Cookies, um sicherzustellen, d
 l::set('cookie_learn_more', 'Mehr erfahren');
 l::set('cookie_button_text', 'Cookies zulassen');
 l::set('form_data_consent_text', 'In diesem Formular werden Ihre E-Mail-Adresse und Ihr Name erfasst, damit wir Sie bezüglich Ihrer Anfrage kontaktieren können. In unserem Impressum erfahren Sie, wie wir Ihre eingereichten Daten schützen und verwalten.');
-l::set('form_data_consent_agree', 'Ich stimme zu, dass mein Name und meine E-Mail Adresse von Berlin by food gespeichert werden.');
+l::set('form_data_consent_agree', 'Ich stimme zu, dass mein Name und meine E-Mail Adresse von Berlin by Food gespeichert werden.');
 l::set('form_data_consent_error', 'Bitte kreuzen Sie dieses Kästchen an, um fortzufahren');
 l::set('sticker', 'Die Touren fangen im Sommer 2019 an');
