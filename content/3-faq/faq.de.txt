@@ -13,21 +13,14 @@ Text:
 Items: 
 
 - 
-  question: Wie viel kostet eine Tour?
-  answer: 'Das hängt von der Dauer und Anzahl der Teilnehmer ab: zwischen 35 und 50 Euro.'
-- 
   question: Was enthält der Preis?
-  answer: >
-    Das ganze Essen und ein alkoholisches
-    Getränk (andere Getränke müssen
-    selbst bezahlt werden). Ihr solltet am
-    Ende satt sein!
+  answer: 'Das ganze Essen und die vom Guide bestellten Getränken.  Ihr solltet am Ende satt sein!'
 - 
   question: Gibt es Rabatte?
   answer: Kinder unter 12 bezahlen nicht.
 - 
-  question: Wie lang dauert eine Tour?
-  answer: 'Das hängt von euch ab: zwischen zwei und drei Stunden.'
+  question: Wie lange dauert eine Tour?
+  answer: 'Das hängt von euch ab: zwischen drei und vier Stunden.'
 - 
   question: Wer kann an einer Tour teilnehmen?
   answer: >
@@ -43,7 +36,7 @@ Items:
     Intoleranz. Kann ich trotzdem
     teilnehmen?
   answer: >
-    Die Toure sind alle vegetarisch oder
+    Die Touren sind alle vegetarisch oder
     vegan. Sagt bitte im Voraus, falls ihr
     eine Allergie oder Intoleranz habt.
 - 

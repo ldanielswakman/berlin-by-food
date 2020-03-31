@@ -1,26 +1,32 @@
-Title: Impressum
+Title: Impressum & Datenschutzerklärung
 
 ----
 
 Text: 
 
-Impressum gemäß § 55 Abs. 2 RStV
+**Impressum gemäß § 55 Abs. 2 RStV**
 
 Verantwortlich für den Inhalt des Angebots ist:
 
 Anne Thomas
 Berlin by Food
-Sonnenallee
+Sonnenallee 94
 12045 Berlin 
 
 Email: info@berlinbyfood.eu
  
 Umsatzsteuer-ID: 
 
-Haftungshinweise
+**Haftungshinweise**
 
-Ich übernehme keine Haftung für externe Links. Die Aktualität, Richtigkeit, Vollständigkeit, Qualität und Rechtmässigkeit der dort bereitgestellten Informationen entzieht sich meinem Einfluss, meiner Kontrolle und meiner Kenntnis. Ich distanziere mich ausdrücklich von diesen Inhalten und übernehmen keinerlei Haftung.
+Ich übernehme keine Haftung für externe Links. Die Aktualität, Richtigkeit, Vollständigkeit, Qualität und Rechtmässigkeit der dort bereitgestellten Informationen entzieht sich meinem Einfluss, meiner Kontrolle und meiner Kenntnis. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
 
-Technische Umsetzung und Betreuung der Website:
+**Information zur Online-Streitbeilegung**
+
+Zur außergerichtlichen Beilegung von Streitigkeiten zwischen Verbrauchern und Unternehmen aus Online-Rechtsgeschäften hat die Europäische Kommission eine europäische Plattform zur Online-Streitbeilegung eingerichtet. Über den folgenden (link: https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.show&lng=DE text: Link) erreichen Sie die Plattform.
+
+Die Veranstalterin ist nicht verpflichtet an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen und nimmt daran nicht teil. 
+
+**Technische Umsetzung und Betreuung der Website**
 
 L. Daniel Swakman (https://www.ldaniel.eu)

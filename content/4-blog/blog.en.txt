@@ -2,7 +2,7 @@ Title: Blog
 
 ----
 
-Text: This blog page includes articles written over the years for various platforms, as well as more recent posts about subjects of interest to Berlin by Food and guest contributions from bloggers around the world. The posts are all in English and probably will not be translated into French or German.
+Text: This blog page includes articles written over the years for various platforms, as well as more recent posts about subjects of interest to Berlin by Food and guest contributions from bloggers around the world. The posts are all in English.
 
 ----
 

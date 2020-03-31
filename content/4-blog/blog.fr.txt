@@ -2,7 +2,7 @@ Title: Blog
 
 ----
 
-Text: Pour le moment les blogs et les articles ne sont qu'en anglais.
+Text: Les blogs et les articles ne sont qu'en anglais.
 
 ----
 

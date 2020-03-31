@@ -9,25 +9,18 @@ Text:
 Items: 
 
 - 
-  question: How much do the tours cost?
-  answer: >
-    This will depend on the length and the
-    number of people attending but from 35
-    to 50 euros.
-- 
   question: What is included in the price?
   answer: >
-    All food and one alcoholic drink (extra
-    drinks are paid out of pocket) – you
-    should be full by the end!
+    All food and drinks orderd by guide –
+    you should be full by the end!
 - 
   question: Are there discounts?
   answer: Children under 12 don’t pay
 - 
   question: How long does a tour last?
   answer: >
-    This is up to you but between two and
-    three hours, give or take.
+    This is up to you but between three and
+    four hours, give or take.
 - 
   question: Who can take the tours?
   answer: >

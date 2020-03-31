@@ -1,4 +1,4 @@
-Title: Error
+Title: FEHLERMELDUNG
 
 ----
 
@@ -6,4 +6,4 @@ Intro: The page has not been found.
 
 ----
 
-Text: Well, stuff can go wrong sometimes and maybe you mistyped a URL, tapped/clicked on a broken link or your computer just wants to drive you nuts. Anyway … keep calm and take a look at our beautiful (link: / text: homepage) instead.
+Text: Entschuldigt! Manchmal laufen die Dinge einfach schief und es könnte sein, dass die URL einen Tippfehler enthält oder ein Link nicht funktioniert oder Euer Computer Euch einfach verrückt machen will. Wie auch immer, bleibt ruhig und schaut Euch stattdessen unsere schöne (link: / text: homepage) an.

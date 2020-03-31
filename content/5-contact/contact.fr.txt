@@ -3,7 +3,3 @@ Title: Contact
 ----
 
 Text: 
-
-----
-
-Coverimage: lara-merrington-2702.jpg

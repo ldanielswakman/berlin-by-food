@@ -9,50 +9,45 @@ Text:
 Items: 
 
 - 
-  question: Combien coûtent les tours?
+  question: "Qu'est-ce qui est inclus dans le prix ?"
   answer: >
-    Cela dépend de la longueur du tour et
-    le nombre de personnes, mais de 35 à 50
-    euros.
+    Toute la nourriture et toutes les
+    boissons commandées par la guide. Vous
+    ne devriez plus avoir faim à la fin du
+    tour.
 - 
-  question: "Qu'est-ce que le prix inclus?"
-  answer: 'Toute la nourriture et **une** boisson alcoolique. Vous ne deviez plus avoir faim à la fin.'
+  question: Y a-t-il des réductions ?
+  answer: "C'est gratuit pour les enfants de moins de 12 ans."
 - 
-  question: "Est-ce qu'il y a des réductions?"
+  question: Combien de temps dure un tour ?
   answer: >
-    Les enfants de moins de 12 ans ne paient
-    pas.
+    Cela dépend de la dynamique de groupe,
+    mais entre trois et quatre heures.
 - 
-  question: Combien de temps dure un tour?
+  question: Qui peut participer ?
+  answer: "Tout le monde. Dites-moi simplement à l'avance s'il y a des enfants, des personnes âgées ou des personnes à mobilité réduite."
+- 
+  question: "Quelle est la taille d'un groupe ?"
   answer: >
-    Cela dépend un peu de vous mais entre
-    deux et trois heures.
+    De deux à six personnes maximum pour un
+    tour.
 - 
-  question: Qui peut participer?
-  answer: "Tout le monde. Dites-moi tout simplement avant s'il y a des enfants, des personnes âgées ou des personnes en fauteuil roulant."
+  question: >
+    Que faire si vous avez une allergie ou
+    une intolérance alimentaire ?
+  answer: "Les tours sont végétariens ou végans. Dites moi à l'avance si vous avez une allergie ou une intolérance particulière."
 - 
-  question: Quelle taille font les groupes?
+  question: Que se passe-t-il si je suis malade ?
   answer: >
-    Il faut un minimum de deux personnes
-    pour un tour. Le maximum est six.
+    Berlin by Food décline toute
+    responsabilité si une personne est
+    malade pendant ou après le tour.
 - 
-  question: "J'ai une allergie ou une intolérance. Qu'est-ce que je fais?"
-  answer: >
-    Les tours sont végétariens ou vegans.
-    Dites moi en avance si vous avez des
-    allergies ou une intolérance.
+  question: "Je n'aime pas partager la nourriture. Est-ce que ce tour est pour moi ?"
+  answer: "Il se peut que vous ayez à partager un ou plusieurs plats avec les autres participants. Si vous n'êtes pas à l'aise avec cela, merci de m'en informer."
 - 
-  question: Que se passe-t-il si je tombe malade?
-  answer: >
-    Berlin by Food ne peut accepter aucune
-    responsabilité si une personne tombe
-    malade pendant ou après un tour.
+  question: "Que se passe-t-il s'il pleut ou s'il neige ?"
+  answer: "Tous les tours, à l'exception du tour « En plein air », ont lieu quelles que soient les conditions climatiques. N'oubliez pas de porter des vêtements et des chaussures adaptés au temps qu'il fait."
 - 
-  question: "Je n'aime pas partager la nourriture. Est-ce que ce tour est pour moi?"
-  answer: "Il se peut que les participants d'un tour soient amener à partager un ou plusieurs plats. Dites Berlin by Food en avance si vous ne voulez pas partager avec d'autres."
-- 
-  question: "Que se passe-t-il s'il pleut ou neige?"
-  answer: "Tous les tours (sauf «En plein air») ont lieu même s'il ne fait pas particulièrement beau. On vous recommande de porter des vêtements et chaussures convenables."
-- 
-  question: Est-ce que nous marchons tout le temps?
-  answer: "Nous sommes flexibles selon le nombre de personnes et les niveaux de fatigue. L'idée est d'être relax et de manger assis ainsi que de marcher entre les cafés et restaurants. Dites-le moi SVP si vous préférez marcher plus ou moins."
+  question: Est-ce que nous marchons tout le temps ?
+  answer: "Nous faisons en fonction du nombre de personnes et des niveaux de fatigue. Le but est que vous passiez un moment agréable, en mangeant assis et en marchant d'un endroit à l'autre tout en profitant de la ville. N'hésitez pas à me dire si vous souhaitez plus ou moins marcher."
