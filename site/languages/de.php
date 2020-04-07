@@ -27,4 +27,4 @@ l::set('cookie_button_text', 'Cookies zulassen');
 l::set('form_data_consent_text', 'In diesem Formular werden Ihre E-Mail-Adresse und Ihr Name erfasst, damit wir Sie bezüglich Ihrer Anfrage kontaktieren können. In unserem Impressum erfahren Sie, wie wir Ihre eingereichten Daten schützen und verwalten.');
 l::set('form_data_consent_agree', 'Ich stimme zu, dass mein Name und meine E-Mail Adresse von Berlin by Food gespeichert werden.');
 l::set('form_data_consent_error', 'Bitte kreuzen Sie dieses Kästchen an, um fortzufahren');
-l::set('sticker', 'Die Touren fangen im Sommer 2020 an');
+l::set('sticker', 'Die Touren fangen nach der Coronaviruskrise an');
