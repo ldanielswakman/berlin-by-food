@@ -50,14 +50,14 @@ kirbytext::$tags['image'] = array(
     if(empty($alt)) {
       $alt = ' ';
       if($file->alt()->isNotEmpty()) {
-        $alt = $file->alt()->html();
+        $alt = $file->alt()->kirbytextinline();
       }
     }
     // OVERRIDE from Kirby Core: try to read alt attribute if caption not specified
     if(empty($caption)) {
       $caption = ' ';
       if($file->alt()->isNotEmpty()) {
-        $caption = $file->alt()->html();
+        $caption = $file->alt()->kirbytextinline();
       }
     }
 
