@@ -2,8 +2,8 @@ Title: Blog
 
 ----
 
-Text: Les blogs et les articles ne sont qu'en anglais.
+Text: Les blogs et les articles ne sont qu'en anglais. Sorry!
 
 ----
 
-Perpage: 5
+Perpage: 8

@@ -6,4 +6,4 @@ Text: This blog page includes articles written over the years for various platfo
 
 ----
 
-Perpage: 5
+Perpage: 8
