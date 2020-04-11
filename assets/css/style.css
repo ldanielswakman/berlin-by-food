@@ -848,6 +848,9 @@ label, input, textarea, select {
   height: 100%;
   object-fit: cover;
 }
+.article-item figcaption {
+  display: none;
+}
 .article-item p {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -886,6 +889,23 @@ label, input, textarea, select {
 }
 .page--article .text figure {
   margin: 1rem 0;
+}
+.page--article .article figure.small,
+.page--article .article figure.medium {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page--article .article figure.medium {
+  max-width: 75%;
+}
+@media screen and (min-width: 768px) {
+  .page--article .article figure.small {
+    max-width: 30%;
+  }
+  .page--article .article figure.medium {
+    max-width: 50%;
+  }
 }
 
 

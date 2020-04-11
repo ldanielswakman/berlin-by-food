@@ -45,3 +45,4 @@ fields:
   text:
     label: Text
     type: markdown
+    help: "If image needs to be different than the default full width, add a 'small' or 'medium' class to the image like this: (image: title.png class: medium)"
