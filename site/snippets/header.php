@@ -25,6 +25,7 @@ endif;
     <?php if(c::get('env') !== 'DEV') : ?>
       <?php snippet('cookie-notice') ?>
       <?php snippet('google-analytics') ?>
+      <?php snippet('mailchimp') ?>
     <?php endif ?>
 
   </head>
