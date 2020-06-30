@@ -655,9 +655,9 @@ p + .contact-form {
 .field {
   margin-bottom: 1rem;
 }
-.contact-form input,
-.contact-form textarea,
-.contact-form select {
+input,
+textarea,
+select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -668,38 +668,38 @@ p + .contact-form {
   background: white;
   border: 2px solid #eee;
 }
-.contact-form input:focus,
-.contact-form textarea:focus,
-.contact-form select:focus {
+input:focus,
+textarea:focus,
+select:focus {
   outline: none;
   border-color: #1B153E;
 }
-.contact-form input.error,
-.contact-form textarea.error,
-.contact-form select.error {
+input.error,
+textarea.error,
+select.error {
   outline: none;
   border-color: #E27C7C;
 }
-.contact-form select {
+select {
   background-image: url('../images/caret-down.svg');
   background-repeat: no-repeat;
   background-position: right center;
 }
-.contact-form .data-consent {
+.data-consent {
   margin-bottom: 0.5rem;
 }
-.contact-form .data-consent p {
+.data-consent p {
   margin-bottom: 0.5rem;
   font-size: 0.875rem;
   line-height: 1rem;
   opacity: 0.5;
 }
-.contact-form .data-consent .input {
+.data-consent .input {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.contact-form input[type="checkbox"] {
+input[type="checkbox"] {
   display: inline-block;
   padding: 0;
   width: 2rem;
@@ -708,17 +708,17 @@ p + .contact-form {
   margin-right: 0.5rem;
   cursor: pointer;
 }
-.contact-form input[type="checkbox"]:checked {
+input[type="checkbox"]:checked {
   background: #1B153E;
   border-color: #fff;
   background-image: url('../images/check.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
-.contact-form input[type="checkbox"]:focus {
+input[type="checkbox"]:focus {
   border-color: #eee;
 }
-.contact-form input[type="checkbox"] + label {
+input[type="checkbox"] + label {
   display: inline-block;
   width: auto;
   cursor: pointer;
@@ -943,6 +943,29 @@ label, input, textarea, select {
   .page--article .article figure.medium.inline-right {
     margin-left: 1rem;
     float: right;
+  }
+}
+
+.page--article .cta {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: rgba(27, 21, 62, 0.05);
+}
+.page--article .cta form {
+  margin-top: 0.5rem;
+}
+.page--article .field-group input {
+  margin-top: 0.5rem;
+}
+@media screen and (min-width: 480px) {
+  .page--article .field-group {
+    display: flex;
+  }
+  .page--article .field-group input[type="submit"] {
+    flex: 0;
+    flex-basis: 10rem;  
+    margin-left: 1rem;
   }
 }
 

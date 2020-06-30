@@ -11,6 +11,7 @@ l::set('hour', 'hour');
 l::set('hours', 'hours');
 l::set('starting_point', 'Starting point');
 l::set('email', 'Email');
+l::set('email-placeholder', 'your@email-addre.ss');
 l::set('name', 'Name');
 l::set('tour', 'Tour');
 l::set('select_tour', 'Select tour (optional)');
