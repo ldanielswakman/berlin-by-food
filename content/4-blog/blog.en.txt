@@ -2,8 +2,8 @@ Title: Blog
 
 ----
 
-Text: This blog page includes articles written over the years for various platforms, as well as more recent posts about subjects of interest to Berlin by Food and guest contributions from bloggers around the world. The posts are all in English.
+Text: This blog page includes posts by Anne Thomas at Berlin by Food about food-related topics and other subjects of interest, such as literature and politics, as well as articles that she has written for other platforms in the past.  It also features guest contributions from around the world. The posts are all in English.
 
 ----
 
-Perpage: 8
+Perpage: 10

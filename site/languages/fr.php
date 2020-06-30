@@ -3,9 +3,9 @@
 l::set('read_more', 'Lire plus');
 l::set('interested', 'Ça me dit ');
 l::set('more_info', 'En savoir plus');
-l::set('request_tour', 'Reserver le tour');
+l::set('request_tour', 'Reserver un tour');
 l::set('see_all', 'Voir tous les tours');
-l::set('read_blog', 'Le blog');
+l::set('read_blog', 'Lire le blog');
 l::set('duration', 'Durée');
 l::set('hour', 'heure');
 l::set('hours', 'heures');
@@ -27,4 +27,4 @@ l::set('cookie_button_text', 'Autoriser les cookies');
 l::set('form_data_consent_text', 'Ce formulaire recueille votre email et votre nom afin que nous puissions vous contacter au sujet de votre demande. Lisez notre Impressum pour tout savoir sur la façon dont nous protégeons et gérons vos données.');
 l::set('form_data_consent_agree', 'J\'accepte que Berlin by Food recueille mon email et mon nom');
 l::set('form_data_consent_error', 'Veuillez cocher cette case pour continuer');
-l::set('sticker', 'Les tours commenceront après le confinement');
+l::set('sticker', 'Les tours commenceront après la crise du COVID-19');

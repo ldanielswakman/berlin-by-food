@@ -11,7 +11,7 @@ Items:
 - 
   question: What is included in the price?
   answer: >
-    All food and drinks orderd by guide –
+    All food and drinks ordered by guide –
     you should be full by the end!
 - 
   question: Are there discounts?

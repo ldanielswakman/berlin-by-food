@@ -6,4 +6,4 @@ Intro: The page has not been found.
 
 ----
 
-Text: Sorry people. Sometimes things go wrong and it seems here that there might be a typo in the URL or a broken link or perhaps your computer just wants to drive you nuts. Keep calm and take a look at our (link: / text: homepage) instead.
+Text: Sorry people. Sometimes things go wrong and it seems here that there might be a typo in the URL or a broken link or perhaps your computer just wants to drive you nuts. Keep calm and see if you find what you're looking for on our (link: / text: homepage) instead.
