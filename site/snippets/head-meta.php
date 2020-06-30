@@ -1,5 +1,4 @@
-<?
-$image_url = url('assets/images/meta-image.jpg');
+<?php $image_url = url('assets/images/meta-image.jpg');
 $title = r($page->isHomePage(), $site->title()->html(), $page->title()->html());
 $site_title = $site->title()->html();
 $descr = $site->description()->html();
@@ -10,7 +9,7 @@ if($page->intro()->isNotEmpty()) { $descr = $page->intro()->excerpt(30, 'words')
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-<meta name="author" content="<? e($page->template() == 'article', $site_title, 'L Daniel Swakman, ldaniel.eu') ?>" />
+<meta name="author" content="<?php e($page->template() == 'article', $site_title, 'L Daniel Swakman, ldaniel.eu') ?>" />
 <meta http-equiv="Cache-control" content="public">
 
 <meta name="description" content="<?= $descr ?>">
@@ -33,6 +32,6 @@ if($page->intro()->isNotEmpty()) { $descr = $page->intro()->excerpt(30, 'words')
 
 <link rel="shortcut icon" href="<?= url('assets/images/favicon.png') ?>" />
 
-<? if($page->canonical_url()->isNotEmpty()) : ?>
+<?php if($page->canonical_url()->isNotEmpty()) : ?>
 <link rel="canonical" href="<?= $page->canonical_url() ?>" />
-<? endif ?>
+<?php endif ?>

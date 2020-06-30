@@ -1,5 +1,4 @@
-<?
-// image tag
+<?php // image tag
 kirbytext::$tags['image'] = array(
   'attr' => array(
     'width',

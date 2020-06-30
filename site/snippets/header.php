@@ -1,6 +1,6 @@
 <!doctype html>
 
-<?  
+<?php 
 // In maintenance redirect
 if($site->maintenance_mode() == 'true') :
   if(!$site->user() && page()->template() != 'soon') go('soon');  
@@ -13,7 +13,7 @@ endif;
 
     <title><?= $page->title()->html() ?> | <?= $site->title()->html() ?></title>
 
-    <? snippet('head-meta') ?>
+    <?php snippet('head-meta') ?>
 
     <?= css('assets/css/flexboxgrid2.min.css') ?>
     <?= css('assets/css/style.css') ?>
@@ -22,14 +22,14 @@ endif;
     <?= js('assets/js/jquery.smooth-scroll.min.js') ?>
     <?= js('assets/js/scripts.js') ?>
 
-    <? if(c::get('env') !== 'DEV') : ?>
-      <? snippet('cookie-notice') ?>
-      <? snippet('google-analytics') ?>
-    <? endif ?>
+    <?php if(c::get('env') !== 'DEV') : ?>
+      <?php snippet('cookie-notice') ?>
+      <?php snippet('google-analytics') ?>
+    <?php endif ?>
 
   </head>
 
-  <body class="page--<?= $page->template() ?><? e($page->coverimage()->isNotEmpty() && ($page->template() !== 'article'), ' page--hasImage') ?> isLoaded">
+  <body class="page--<?= $page->template() ?><?php e($page->coverimage()->isNotEmpty() && ($page->template() !== 'article'), ' page--hasImage') ?> isLoaded">
 
     <script>$('body').addClass('isLoading').removeClass('isLoaded'); setTimeout(function() { $('body').addClass('isLoaded').removeClass('isLoading'); }, 2000);</script>
 
@@ -39,15 +39,15 @@ endif;
         <img src="<?= url('assets/images/logo.svg') ?>" alt="<?= $site->title()->html() ?>" />
       </a>
 
-      <? if(strlen(l::get('sticker')) > 0) : ?>
+      <?php if(strlen(l::get('sticker')) > 0) : ?>
         <a href="<?= $site->find('tours')->url() ?>" class="sticker"><span><?= l::get('sticker') ?></span></a>
-      <? endif ?>
+      <?php endif ?>
 
-      <? if(!$page->isHomePage()) { snippet('lang-switcher'); } ?>
+      <?php if(!$page->isHomePage()) { snippet('lang-switcher'); } ?>
       
     </div>
 
-    <? snippet('menu') ?>
+    <?php snippet('menu') ?>
 
-    <? snippet('image-panel') ?>
+    <?php snippet('image-panel') ?>
     

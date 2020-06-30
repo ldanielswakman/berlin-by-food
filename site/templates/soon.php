@@ -1,6 +1,5 @@
 <!doctype html>
-<?
-// Temporary redirect; remove when going live
+<?php // Temporary redirect; remove when going live
 if(!$site->user() && page()->template() != 'soon') go('soon');
 ?>
 
@@ -10,9 +9,9 @@ if(!$site->user() && page()->template() != 'soon') go('soon');
 
     <title><?= $page->title()->html() ?> | <?= $site->title()->html() ?></title>
 
-    <? snippet('head-meta') ?>
+    <?php snippet('head-meta') ?>
 
-    <? snippet('google-analytics') ?>
+    <?php snippet('google-analytics') ?>
 
     <?= css('assets/css/flexboxgrid2.min.css') ?>
     <?= css('assets/css/style.css') ?>

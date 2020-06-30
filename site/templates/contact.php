@@ -8,7 +8,7 @@
 
     <hr />
 
-    <? snippet('contact-form') ?>
+    <?php snippet('contact-form') ?>
       
     <div class="contact-twitter text wrap cf">
       <?= $page->text()->kirbytext() ?>

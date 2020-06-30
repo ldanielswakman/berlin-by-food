@@ -1,4 +1,4 @@
-<? snippet('header') ?>
+<?php snippet('header') ?>
 
   <main class="main" role="main">
 
@@ -7,7 +7,7 @@
     <?= $page->text()->kirbytext() ?>
 
     <div class="tours-index row">
-      <? foreach (page('tours')->children()->visible() as $tour) : ?>
+      <?php foreach (page('tours')->children()->visible() as $tour) : ?>
       <div class="col-xs-12 col-sm-6 tours-index__col">
         <div class="card visual--<?= $tour->visual() ?>" id="<?= $tour->slug() ?>">
 
@@ -21,7 +21,7 @@
 
         </div>
       </div>
-      <? endforeach ?>
+      <?php endforeach ?>
     </div>
 
     <div>
@@ -30,4 +30,4 @@
 
   </main>
 
-<? snippet('footer') ?>
+<?php snippet('footer') ?>

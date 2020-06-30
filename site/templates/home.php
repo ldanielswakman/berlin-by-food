@@ -1,8 +1,8 @@
-<? snippet('header') ?>
+<?php snippet('header') ?>
 
 <main class="main" role="main">
 
-	<? if($page->isHomePage()) { snippet('lang-switcher'); } ?>
+	<?php if($page->isHomePage()) { snippet('lang-switcher'); } ?>
   
   <section id="intro" class="intro">
     <?= $page->intro()->kirbytext() ?>
@@ -17,4 +17,4 @@
 
 </main>
 
-<? snippet('footer') ?>
+<?php snippet('footer') ?>

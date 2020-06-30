@@ -1,22 +1,22 @@
-<? snippet('header') ?>
+<?php snippet('header') ?>
 
   <main class="main" role="main">
 
     <header class="wrap">
       <h1><?= $page->title()->html() ?></h1>
 
-      <? if($pagination->page() == 1): ?>
+      <?php if($pagination->page() == 1): ?>
         <div class="intro text">
           <?= $page->text()->kirbytext() ?>
         </div>
-      <? endif ?>
+      <?php endif ?>
 
       <hr />
     </header>
 
     <section class="article-index">
-      <? if($articles->count()): ?>
-        <? foreach($articles as $article): ?>
+      <?php if($articles->count()): ?>
+        <?php foreach($articles as $article): ?>
 
           <a href="<?= $article->url() ?>" class="article-item">
 
@@ -28,7 +28,7 @@
 
             </div>
 
-            <? snippet('coverimage', $article) ?>
+            <?php snippet('coverimage', $article) ?>
 
             <object><a class="link" href="<?= $article->url() ?>"><?= l::get('read_more') ?></a></object>
 
@@ -36,12 +36,12 @@
 
           <hr />
 
-        <? endforeach ?>
-      <? else: ?>
+        <?php endforeach ?>
+      <?php else: ?>
         <p>This blog does not contain any articles yet.</p>
-      <? endif ?>
+      <?php endif ?>
     </section>
 
   </main>
 
-<? snippet('footer') ?>
+<?php snippet('footer') ?>

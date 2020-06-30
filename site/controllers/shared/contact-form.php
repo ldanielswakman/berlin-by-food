@@ -1,5 +1,4 @@
-<?
-
+<?php 
 use Uniform\Form;
 
 $form = new Form([

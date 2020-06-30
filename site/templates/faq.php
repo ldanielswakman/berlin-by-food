@@ -7,12 +7,12 @@
     <?= $page->text()->kirbytext() ?>
 
     <div class="faq-items">
-	    <? foreach ($page->items()->toStructure() as $item) : ?>
+	    <?php foreach ($page->items()->toStructure() as $item) : ?>
 	    	<div class="faq-item">
 	    		<h4><?= $item->question()->html() ?></h4>
 	    		<p><?= $item->answer()->html() ?></p>
 	  		</div>
-	    <? endforeach ?>
+	    <?php endforeach ?>
 	  </div>
     
   </main>
