@@ -10,9 +10,6 @@
 
       <header class="article-header">
         <h1><?= $page->title()->html() ?></h1>
-        <div class="article-date"><?= $page->date('j F Y') ?></div>
-        <br>
-        <hr />
       </header>
 
       <?php // Draft info panel ?>
@@ -41,12 +38,13 @@
 
       <?php // Cover image ?>
       <?php snippet('coverimage', $page) ?>
-
-      <br>
       
       <div class="text">
         <?= $page->text()->kirbytext() ?>
       </div>
+
+      <div class="article-date"><?= $page->date('j F Y') ?></div>
+      <br />
       
     </article>
 

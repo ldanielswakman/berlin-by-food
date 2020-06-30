@@ -45,4 +45,4 @@ fields:
   text:
     label: Text
     type: markdown
-    help: "If image needs to be different than the default full width, add a 'small' or 'medium' class to the image like this: (image: title.png class: medium)"
+    help: "Tips on images: <ul style='margin-bottom: 0'><li>If image needs to be different than the default full width, add a '<b>small</b>' or '<b>medium</b>' class to the image</li><li>If text needs to flow around an image, add the class 'inline-left' or 'inline-right' to the image. This needs to be in addition to the 'small' and 'medium' classes</li></ul>Example: <b style='font-family: monospace; background: white'>(image: title.jpg class: medium inline-left)</b>"

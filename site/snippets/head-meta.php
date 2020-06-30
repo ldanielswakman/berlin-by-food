@@ -1,9 +1,12 @@
-<?php $image_url = url('assets/images/meta-image.jpg');
+<?php
+$image_url = url('assets/images/meta-image.jpg');
+if($page->coverimage()->isNotEmpty()) { $image_url = image($page->coverimage())->crop(1200, 600)->url(); }
 $title = r($page->isHomePage(), $site->title()->html(), $page->title()->html());
 $site_title = $site->title()->html();
 $descr = $site->description()->html();
 if($page->text()->isNotEmpty()) { $descr = $page->text()->excerpt(30, 'words'); }
 if($page->intro()->isNotEmpty()) { $descr = $page->intro()->excerpt(30, 'words'); }
+if($page->infopanel()->isNotEmpty()) { $descr = $page->infopanel()->excerpt(30, 'words'); }
 ?>
 
 <meta charset="utf-8">

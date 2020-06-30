@@ -127,7 +127,8 @@ p {
 }
 p + p,
 p + ul,
-ul + p {
+ul + p,
+figure + p {
   margin-top: 1rem;
 }
 /* Anchor */
@@ -867,6 +868,7 @@ label, input, textarea, select {
 }
 .article-infopanel p {
   font-size: 0.875rem;
+  line-height: 1.125rem;
 }
 .article-infopanel a {
   white-space: nowrap;
@@ -874,10 +876,19 @@ label, input, textarea, select {
 
 
 
-/* Blog article show page*/
+/* Blog article show page */
+@media screen and (min-width: 768px) {
+  .page--article h1 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+}
 .page--article .article-coverimage {
   max-height: 60vh;
   overflow: hidden;
+}
+.page--article .article-coverimage + figcaption {
+  margin-bottom: 1rem;
 }
 .page--article .article-coverimage img {
   width: 100%;
@@ -890,6 +901,7 @@ label, input, textarea, select {
 .page--article .text figure {
   margin: 1rem 0;
 }
+/* Figure size */
 .page--article .article figure.small,
 .page--article .article figure.medium {
   max-width: 50%;
@@ -899,12 +911,38 @@ label, input, textarea, select {
 .page--article .article figure.medium {
   max-width: 75%;
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .page--article .article figure.medium {
+    max-width: 50%;
+  }
+}
 @media screen and (min-width: 768px) {
   .page--article .article figure.small {
     max-width: 30%;
   }
   .page--article .article figure.medium {
     max-width: 50%;
+  }
+}
+/* Figure alignment */
+@media screen and (min-width: 480px) {
+  .page--article .article figure.small.inline-left {
+    margin-right: 1rem;
+    float: left;
+  }
+  .page--article .article figure.small.inline-right {
+    margin-left: 1rem;
+    float: right;
+  }
+}
+@media screen and (min-width: 960px) {
+  .page--article .article figure.medium.inline-left {
+    margin-right: 1rem;
+    float: left;
+  }
+  .page--article .article figure.medium.inline-right {
+    margin-left: 1rem;
+    float: right;
   }
 }
 
