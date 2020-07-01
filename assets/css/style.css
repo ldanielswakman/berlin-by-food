@@ -129,7 +129,7 @@ p + p,
 p + ul,
 ul + p,
 figure + p {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 /* Anchor */
 a {
@@ -886,6 +886,11 @@ label, input, textarea, select {
 .page--article .article-coverimage {
   max-height: 60vh;
   overflow: hidden;
+}
+.page--article .text:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .page--article .article-coverimage + figcaption {
   margin-bottom: 1rem;
