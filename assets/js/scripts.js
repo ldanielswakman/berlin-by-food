@@ -63,3 +63,25 @@ function updateHash(href) {
     location.hash = href;
   }
 }
+
+
+
+
+
+
+// Component: Newsletter Signup Modal
+$(document).ready(function() {
+
+  var $target = $('.cta-modal');
+  var popupDelay = $target.attr('data-popup-delay');
+
+  var CTAModalTimeout = setTimeout(function() {
+    $target.toggleClass('isActive');
+  }, popupDelay);
+
+  $('.cta-modal__close').click(function() {
+    $target.removeClass('isActive');
+    clearTimeout(CTAModalTimeout);
+  });
+  
+});

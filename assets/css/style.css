@@ -144,10 +144,10 @@ a.a--light:hover {
 }
 p a {
   font-weight: 500;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.5);
 }
 p a:hover {
-  background: #fff;
+  background: white;
 }
 /* Blockquote */
 blockquote {
@@ -361,7 +361,7 @@ nav li {
 nav a {
   display: block;
   padding: 0.5rem 0.25rem;
-  background: #fff;
+  background: white;
   color: #1B153E;
   text-decoration: none;
   border: 2px solid #1B153E;
@@ -369,6 +369,11 @@ nav a {
   white-space: nowrap;
 }
 @media screen and (min-width: 768px) {
+  nav a {
+    padding: 0.75rem 1rem;
+  }
+}
+@media screen and (min-width: 960px) {
   nav a {
     padding: 0.75rem 2rem;
   }
@@ -378,7 +383,7 @@ nav li + li a {
 }
 nav a:hover {
   background: #1B153E;
-  color: #fff;
+  color: white;
 }
 nav li.is-active a {
   transform: translateY(-2px);
@@ -403,7 +408,7 @@ button {
 .button {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background: #fff;
+  background: white;
   color: #1B153E;
   text-decoration: none;
   border: 2px solid #1B153E;
@@ -624,7 +629,7 @@ button {
   padding: 0.5rem;
   border-radius: 50%;
   background: #E27C7C;
-  color: #fff;
+  color: white;
   font-size: 0.875rem;
   text-align: center;
   line-height: 0.875rem;
@@ -710,7 +715,7 @@ input[type="checkbox"] {
 }
 input[type="checkbox"]:checked {
   background: #1B153E;
-  border-color: #fff;
+  border-color: white;
   background-image: url('../images/check.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -823,7 +828,7 @@ label, input, textarea, select {
   right: -2px;
   display: inline-block;
   padding: 0.5rem 1rem;
-  background: #fff;
+  background: white;
   border: 2px solid #1B153E;
 }
 .article-item .link:hover {
@@ -951,6 +956,8 @@ label, input, textarea, select {
   }
 }
 
+
+/* Article CTA */
 .page--article .cta {
   display: block;
   margin-bottom: 1rem;
@@ -973,6 +980,91 @@ label, input, textarea, select {
     margin-left: 1rem;
   }
 }
+
+/* Article CTA Modal */
+.cta-modal {
+  position: fixed;
+  bottom: 2rem;
+  left: auto;
+  right: 0;
+  display: block;
+  max-width: 24rem;
+  padding: 1rem;
+  background: #F7F7F5;
+  border: 2px solid #1B153E;
+  transform: translateX(calc(100% + 1rem));
+  transition: transform 0.6s ease-in-out;
+}
+.cta-modal.isActive { transform: translateX(0); }
+
+@media screen and (min-width: 768px) {
+  .cta-modal {
+    bottom: 6rem;
+    right: 1rem;
+  }
+}
+
+
+.cta-modal:before {
+  content: "";
+  position: relative;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 75%;
+  margin: -1rem 0 1rem;
+  height: 6rem;
+  padding-bottom: 33%;
+  background-repeat: no-repeat;
+  background-image: url('../images/fruit-combo-alt.png');
+  background-size: contain;
+  background-position: top right;
+}
+@media screen and (min-width: 768px) {
+  .cta-modal:before {
+    height: 8rem;
+  }
+}
+.cta-modal__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3rem;
+  height: 3rem;
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.cta-modal__close:hover {
+  opacity: 1;
+  background: white;
+}
+.cta-modal__close:active {
+  background: #E8E8EC;
+}
+.cta-modal__close:focus {
+  outline: none;
+  border-left-color: #1B153E;
+  border-bottom-color: #1B153E;
+}
+
+.cta-modal__close:before,
+.cta-modal__close:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -0.75rem;
+  width: 1.5rem;
+  height: 2px;
+  background: #1B153E;
+  transform: rotate(45deg);
+}
+.cta-modal__close:after {
+  transform: rotate(-45deg);
+}
+.cta-modal p { margin-top: 0.25rem; line-height: 1.25rem; }
 
 
 /* Homepage more arrow */

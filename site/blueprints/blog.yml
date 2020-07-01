@@ -43,3 +43,17 @@ fields:
       To fill the blog page with content, just hit the <b>Add</b> button
       to create a new article. Your blog articles will be automatically ordered by
       date.
+
+  newsletterpopup:
+    label: Show newsletter popup?
+    type: toggle
+    width: 1/3
+    translate: false
+
+  newsletterpopupdelay:
+    label: "Newsletter popup delay <span style='font-weight: normal; opacity: 0.3;'>(seconds)</span>"
+    type: number
+    width: 1/3
+    min: 0
+    translate: false
+    

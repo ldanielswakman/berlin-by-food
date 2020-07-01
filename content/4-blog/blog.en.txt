@@ -7,3 +7,11 @@ Text: This blog page includes posts by Anne Thomas at Berlin by Food about food-
 ----
 
 Perpage: 10
+
+----
+
+Newsletterpopup: true
+
+----
+
+Newsletterpopupdelay: 5
