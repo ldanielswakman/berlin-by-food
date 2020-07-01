@@ -21,7 +21,7 @@ $(document).ready(function() {
     maxRot = 15;
 
     randLeft = isMob ? getRandomInt(100, 170) : getRandomInt(-100, 30);
-    randTop = isMob ? getRandomInt(120, 150) : getRandomInt(-30, 100);
+    randTop = isMob ? getRandomInt(30, 70) : getRandomInt(-30, 100);
     randRot = getRandomInt(-maxRot, maxRot);
 
     $('.sticker')

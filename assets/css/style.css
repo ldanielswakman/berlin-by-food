@@ -318,7 +318,7 @@ main {
 
 
 /* Logo */
-.logo {}
+.logo { display: block; }
 .logo img {
   max-width: 100%;
   height: 10rem;
@@ -625,7 +625,7 @@ button {
   align-items: center;
   width: 5.5rem;
   height: 5.5rem;
-  margin: -3rem 0 auto auto;
+  margin: -3rem 0 -2.5rem auto;
   padding: 0.5rem;
   border-radius: 50%;
   background: #E27C7C;
