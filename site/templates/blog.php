@@ -7,7 +7,7 @@
 
       <?php if($pagination->page() == 1): ?>
         <div class="intro text">
-          <?= $page->text()->kirbytext() ?>
+          <?= $page->text()->kt() ?>
         </div>
       <?php endif ?>
 
@@ -24,7 +24,7 @@
 
               <h2><?= $article->title()->html() ?></h2>
               <p class="article-date"><?= $article->date('F jS, Y') ?></p>
-              <p><?= $article->text()->kirbytext()->excerpt(50, 'words') ?></p>
+              <p><?= $article->text()->kt()->excerpt(52, 'words') ?></p>
 
             </div>
 
