@@ -17,7 +17,7 @@ if($selection->count() < $n) {
 ?>
 
 <section class="related">
-  <h3>Next articles to read</h3>
+  <h3><?= l::get('related_title') ?></h3>
 
 	<?php foreach ($selection as $article) : ?>
 		<a href="<?= $article->url() ?>" class="article-item">
