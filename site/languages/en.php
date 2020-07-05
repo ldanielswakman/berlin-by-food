@@ -1,6 +1,7 @@
 <?php 
 
 l::set('read_more', 'Read on');
+l::set('read', 'Read');
 l::set('interested', 'I\'m in');
 l::set('more_info', 'Find out more');
 l::set('request_tour', 'Book a tour');

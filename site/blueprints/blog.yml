@@ -56,4 +56,11 @@ fields:
     width: 1/3
     min: 0
     translate: false
+
+  relatedcount:
+    label: Amount of related articles
+    type: number
+    width: 1/3
+    min: 0
+    translate: false
     

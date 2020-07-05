@@ -984,9 +984,10 @@ label, input, textarea, select {
 /* Article CTA Modal */
 .cta-modal {
   position: fixed;
-  bottom: 2rem;
+  bottom: 2.25rem;
   left: auto;
   right: 0;
+  z-index: 3;
   display: block;
   max-width: 24rem;
   padding: 1rem;
@@ -1081,6 +1082,49 @@ label, input, textarea, select {
 .isLoaded .home-more {
   opacity: 1;
   transform: translateY(0);
+}
+
+
+
+/* Related articles */
+.related {
+  margin-top: 1.5rem;
+}
+.related h3 { margin-bottom: 0.5rem; }
+.related .article-item {
+  padding: 1rem;
+  padding-bottom: 2.5rem;
+  flex-direction: row;
+}
+.related .article-coverimage {
+  width: 3rem;
+  min-width: 3rem;
+  margin: -1rem 1rem -2.5rem -1rem;
+}
+.related .article-item h4 {
+  font-size: 1rem;
+}
+.related .article-item .article-date {
+  margin-top: 0.5rem;
+  margin-bottom: -2rem;
+}
+.related .article-item .link {
+  padding: 0.25rem 1rem;
+}
+@media screen and (min-width: 768px) {
+  .related .article-item {
+    padding: 1rem 2rem;
+  }
+  .related .article-coverimage {
+    order: inherit;
+    width: 5rem;
+    height: 5rem;
+    margin-left: -2rem;
+    margin-right: 1rem;
+  }
+  .related .article-item .article-date {
+    margin: auto;
+  }
 }
 
 

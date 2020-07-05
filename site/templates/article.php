@@ -51,6 +51,8 @@
     <section class="cta">
       <?php snippet('newsletter-signup-form') ?>
     </section>
+
+    <?php snippet('related-articles') ?>
     
   </main>
 

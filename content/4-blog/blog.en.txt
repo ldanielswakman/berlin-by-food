@@ -15,3 +15,7 @@ Newsletterpopup: true
 ----
 
 Newsletterpopupdelay: 5
+
+----
+
+Relatedcount: 3
