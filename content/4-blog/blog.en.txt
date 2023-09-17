@@ -2,11 +2,11 @@ Title: Blog
 
 ----
 
-Text: This blog page includes posts by Anne Thomas at Berlin by Food about food-related topics and other subjects of interest, such as literature and politics, as well as articles that she has written for other platforms in the past.  It also features guest contributions from around the world. The posts are all in English.
+Text: This blog page includes posts by Anne Thomas at Berlin by Food about food-related topics and other subjects, such as film, literature and politics, as well as articles that she has written for other platforms.  It also features guest contributions from around the world. The posts are all in English.
 
 ----
 
-Perpage: 10
+Perpage: 16
 
 ----
 
@@ -14,7 +14,7 @@ Newsletterpopup: true
 
 ----
 
-Newsletterpopupdelay: 5
+Newsletterpopupdelay: 10
 
 ----
 
