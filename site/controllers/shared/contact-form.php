@@ -32,11 +32,6 @@ if (r::is('POST')) {
             'to' => 'info@berlinbyfood.eu',
             'from' => $form->data('email'),
             'subject' => $subject,
-        ])
-        ->emailAction([
-            'to' => 'hello@ldaniel.eu',
-            'from' => $form->data('email'),
-            'subject' => $subject,
         ]);
     endif;
 }
